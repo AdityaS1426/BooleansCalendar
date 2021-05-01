@@ -114,7 +114,7 @@ public class MainController extends SpringBootServletInitializer {
        @RequestMapping(value = "/labs/Yasaswi/LinkedList", method = {RequestMethod.GET, RequestMethod.POST})
     public String LinkedList(@RequestParam(value = "add", required = false, defaultValue = "7") String add, Model model) {
 
-        LinkedList list = new LinkedList(new int[]{9, 1, 8, 5, 2,3});
+        LinkedList list = new LinkedList(new int[]{9, 1, 8, 5, 2, 3});
 
         int val = Integer.parseInt(add);
 
@@ -131,7 +131,7 @@ public class MainController extends SpringBootServletInitializer {
     @RequestMapping(value = "/labs/Praveen/LinkedList", method = {RequestMethod.GET, RequestMethod.POST})
     public String LinkedListPraveen(@RequestParam(value = "add", required = false, defaultValue = "7") String add, Model model) {
 
-        LinkedList list = new LinkedList(new int[]{9, 1, 8, 5, 2,3});
+        LinkedList list = new LinkedList(new int[]{1, 2, 3, 4});
 
         int val = Integer.parseInt(add);
 
@@ -143,5 +143,22 @@ public class MainController extends SpringBootServletInitializer {
         model.addAttribute("linkedlist4", list.traverse());
 
         return "labs/Praveen/PraveenLinkedList";
+    }
+
+    @RequestMapping(value = "/labs/Neil/LinkedList", method = {RequestMethod.GET, RequestMethod.POST})
+    public String LinkedListNeil(@RequestParam(value = "add", required = false, defaultValue = "12") String add, Model model) {
+
+        LinkedList list = new LinkedList(new int[]{7,6,2,5,4,8});
+
+        int val = Integer.parseInt(add);
+
+        list.addHead(val);
+
+        model.addAttribute("linkedlist1", list.traverse().get(0));
+        model.addAttribute("linkedlist2", list.traverse().get(1));
+        model.addAttribute("linkedlist3", list.traverse().get(list.traverse().size()-1));
+        model.addAttribute("linkedlist4", list.traverse());
+
+        return "labs/Neil/NeilLinkedList";
     }
 }
