@@ -76,13 +76,10 @@ public class MainController extends SpringBootServletInitializer {
 /*
     @RequestMapping("/labs/Vihan/Inheritance")
     public String VihanInheritance(@RequestParam(value = "computerType", required=false, defaultValue="Computer") String computerType,@RequestParam(value = "storage", required=false, defaultValue="256") String storage, @RequestParam(value = "ram", required=false, defaultValue="8") String ram,@RequestParam(value = "name", required=false, defaultValue="Computer") String name,@RequestParam(value = "operatingsystem", required=false, defaultValue="Ubuntu") String operatingsystem,@RequestParam(value = "batteryduration", required=false, defaultValue="8") String batteryduration,Model model) {
-
-
         System.out.println(computerType);
         int stor = Integer.parseInt(storage);
         int ra = Integer.parseInt(ram);
         int battery = Integer.parseInt(batteryduration);
-
         Computer.OperatingSystem o;
         if (operatingsystem.compareTo("Windows")==0) {
             o = Computer.OperatingSystem.WINDOWS;
@@ -91,18 +88,13 @@ public class MainController extends SpringBootServletInitializer {
         } else {
             o = Computer.OperatingSystem.UBUNTU;
         }
-
-
         if (computerType.compareTo("Laptop")==0) {
             Laptop computer = new Laptop(stor,name,ra,o, battery);
             model.addAttribute("computerToString",computer.toString());
-
         } else {
             Computer computer = new Computer(stor,name,ra,o);
             model.addAttribute("computerToString",computer.toString());
         }
-
-
         return "labs/Vihan/Inheritance";
     }
 */
@@ -119,19 +111,54 @@ public class MainController extends SpringBootServletInitializer {
         return "labs/Neil/NeilInheritance";
     }
 
-    @RequestMapping(value = "/labs/Yasaswi/LinkedList", method = {RequestMethod.GET, RequestMethod.POST})
-    public String LinkedList(@RequestParam(value = "name", required = false, defaultValue = "1") String name, Model model) {
+       @RequestMapping(value = "/labs/Yasaswi/LinkedList", method = {RequestMethod.GET, RequestMethod.POST})
+    public String LinkedList(@RequestParam(value = "add", required = false, defaultValue = "7") String add, Model model) {
 
-        LinkedList list = new LinkedList(new int[]{1,2,3});
+        LinkedList list = new LinkedList(new int[]{9, 1, 8, 5, 2, 3});
+
+        int val = Integer.parseInt(add);
+
+        list.addHead(val);
 
         model.addAttribute("linkedlist1", list.traverse().get(0));
         model.addAttribute("linkedlist2", list.traverse().get(1));
         model.addAttribute("linkedlist3", list.traverse().get(list.traverse().size()-1));
+        model.addAttribute("linkedlist4", list.traverse());
 
         return "labs/Yasaswi/YasaswiLinkedList";
     }
 
+    @RequestMapping(value = "/labs/Praveen/LinkedList", method = {RequestMethod.GET, RequestMethod.POST})
+    public String LinkedListPraveen(@RequestParam(value = "add", required = false, defaultValue = "7") String add, Model model) {
 
+        LinkedList list = new LinkedList(new int[]{1, 2, 3, 4});
 
+        int val = Integer.parseInt(add);
 
+        list.addHead(val);
+
+        model.addAttribute("linkedlist1", list.traverse().get(0));
+        model.addAttribute("linkedlist2", list.traverse().get(1));
+        model.addAttribute("linkedlist3", list.traverse().get(list.traverse().size()-1));
+        model.addAttribute("linkedlist4", list.traverse());
+
+        return "labs/Praveen/PraveenLinkedList";
+    }
+
+    @RequestMapping(value = "/labs/Neil/LinkedList", method = {RequestMethod.GET, RequestMethod.POST})
+    public String LinkedListNeil(@RequestParam(value = "add", required = false, defaultValue = "12") String add, Model model) {
+
+        LinkedList list = new LinkedList(new int[]{7,6,2,5,4,8});
+
+        int val = Integer.parseInt(add);
+
+        list.addHead(val);
+
+        model.addAttribute("linkedlist1", list.traverse().get(0));
+        model.addAttribute("linkedlist2", list.traverse().get(1));
+        model.addAttribute("linkedlist3", list.traverse().get(list.traverse().size()-1));
+        model.addAttribute("linkedlist4", list.traverse());
+
+        return "labs/Neil/NeilLinkedList";
+    }
 }

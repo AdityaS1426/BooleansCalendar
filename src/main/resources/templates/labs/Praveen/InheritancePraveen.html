@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.w3.org/1999/xhtml">
+<head th:replace="fragments/headfile :: head">
+    <meta charset="UTF-8">
+    <title>VihanInheritance</title>
+
+    <style>
+        #formContainer{
+            width:40%;
+            margin:auto;
+        }
+        #formC{
+            width:100%;
+        }
+        .rows{
+            width:100%;
+            display:block;
+
+        }
+        .column{
+            width:100%;
+            display:inline-block;
+
+        }
+        .labels{
+
+            width:30%
+            float:left;
+        }
+        .inputs{
+
+
+            width:60%;
+            float:right;
+        }
+
+    </style>
+</head>
+<body>
+
+<div><p>You are allowed to create some computer, by specifying its storage,name,ssd, and operating system.</p>
+
+    <p>You can also choose to create a laptop, which inherits all attributes from computer, but also has a battery life attribute</p>
+
+
+    <div id="formContainer">
+        <form id="formC" th:action="@{Inheritance}" >
+            <h1>Choose the class of Computer</h1>
+            <input type="radio" th:name="computerType" onclick="changeClass(this.value)"id="computer" th:value="Computer">
+            <label for="computer">Computer</label>
+            <input type="radio" th:name="computerType" onclick="changeClass(this.value)" id="laptop" th:value="Laptop">
+            <label for="laptop">Laptop</label>
+
+            <div class="rows">
+                <div class="column">
+                    <label class="labels" for="name">Name</label>
+                    <input class="inputs" name="name" id="name">
+                </div>
+
+                <div class="column">
+                    <label class="labels" for="storage">Storage</label>
+                    <input class="inputs" name="storage" id="storage">
+                </div>
+
+                <div class="column">
+                    <label class="labels" for="ram">Ram</label>
+                    <input class="inputs" name="ram" id="ram">
+                </div>
+
+                <div id="batteryDurationInput">
+                    <label class="labels" for="batteryduration">Laptop Battery Duration (in hrs)</label>
+                    <input class="inputs" name="batteryduration" id="batteryduration">
+                    <script>
+                        let batteryDurationForm = document.getElementById("batteryDurationInput");
+
+
+                        function changeClass(value) {
+
+                            if (value==="Laptop") {
+                                batteryDurationForm.style.display = "block";
+                            } else {
+                                batteryDurationForm.style.display = "none";
+                            }
+                        }
+                        changeClass("");
+                    </script>
+                </div>
+                <div class="column">
+                    <h1>Operating System</h1>
+                    <label class="labels" for="ubuntu">Ubuntu</label>
+                    <input type="radio"th:name="operatingsystem"id="ubuntu" th:value="Ubuntu">
+                    <label class="labels" for="macos">MacOS</label>
+                    <input type="radio"th:name="operatingsystem"id="macos" th:value="MacOS">
+                    <label class="labels" for="windows">Windows</label>
+                    <input type="radio"th:name="operatingsystem"id="windows" th:value="Windows">
+                </div>
+
+
+            </div>
+            <button id="Inheritancebutton">Create</button>
+        </form>
+    </div>
+
+    <h1><p th:text="${computerToString}"></p></h1>
+
+
+
+</div>
+
+
+</body>
+</html>
