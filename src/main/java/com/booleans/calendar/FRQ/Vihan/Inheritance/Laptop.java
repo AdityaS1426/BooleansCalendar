@@ -35,22 +35,7 @@ public class Laptop extends Computer {
     }
 
 
-    public static void main(String[] args) {
-        Laptop lap1 = new Laptop("Laptop 1", 10);
-        Laptop lap2 = new Laptop("Laptop 2", 4);
 
-        Computer com1 = new Computer("Computer 1");
-
-        System.out.println(lap1);
-        System.out.println(lap2);
-        System.out.println(com1);
-
-        System.out.println("Lap1 Compared to Lap2" + lap1.compareTo(lap2));
-        System.out.println("Lap1 compared to Comp 1" + lap1.compareTo(com1));
-
-
-
-    }
 }
 
 

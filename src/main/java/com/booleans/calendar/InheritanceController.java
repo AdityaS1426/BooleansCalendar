@@ -33,7 +33,7 @@ public class InheritanceController {
 
 
         if (computerType.compareTo("Laptop")==0) {
-            Laptop computer = new Laptop(stor,name,ra,o, battery);
+            Computer computer = new Laptop(stor,name,ra,o, battery);
             model.addAttribute("computerToString",computer.toString());
 
         } else {

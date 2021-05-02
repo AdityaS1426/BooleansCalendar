@@ -5,7 +5,7 @@
     <title>VihanInheritance</title>
 
     <style>
-    #formContainer{
+    #InheritanceFormContainer{
   width:40%;
   margin:auto;
 }
@@ -43,7 +43,7 @@
     <p>You can also choose to create a laptop, which inherits all attributes from computer, but also has a battery life attribute</p>
 
 
-    <div id="formContainer">
+    <div th:fragment="InheritanceFormContainer">
         <form id="formC" th:action="@{Inheritance}" >
             <h1>Choose the class of Computer</h1>
             <input type="radio" th:name="computerType" onclick="changeClass(this.value)"id="computer" th:value="Computer">

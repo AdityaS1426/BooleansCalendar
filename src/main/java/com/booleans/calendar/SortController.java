@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.*;
 import org.springframework.ui.Model;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 
 
 @Controller
@@ -40,10 +41,33 @@ public class SortController {
             }
 
         }
-        sort = new Sorts(new ArrayList<Comparable>(Arrays.asList(test)),sortMethod);
-        model.addAttribute("elapsedTime", String.valueOf(sort.elapsedTime));
-        model.addAttribute("array",sort.array.toString());
-        model.addAttribute("sortedarray",sort.sortedarray.toString());
+        ArrayList<Comparable> arr = new ArrayList<Comparable>(Arrays.asList(test));
+
+
+        long start = 0;
+        ArrayList<Comparable> sortedarray = new ArrayList<>();
+        long elapsedTime = 0;
+
+        if (sortMethod.compareTo("Insertion")==0) {
+            start = System.nanoTime();
+            sortedarray = (ArrayList) Sorts.insertionSort(arr);
+            elapsedTime = System.nanoTime()-start;
+
+        } else if (sortMethod.compareTo("Selection")==0) {
+            start = System.nanoTime();
+            sortedarray = (ArrayList) Sorts.selectionSort(arr);
+            elapsedTime = System.nanoTime()-start;
+        } else if (sortMethod.compareTo("Bubble")==0) {
+            //Bubble Sort
+            start = System.nanoTime();
+            sortedarray =  (ArrayList) Sorts.bubbleSort(arr);
+            elapsedTime = System.nanoTime()-start;
+        }
+
+
+        model.addAttribute("elapsedTime", String.valueOf(elapsedTime));
+        model.addAttribute("array",new ArrayList<Comparable>(Arrays.asList(test)).toString());
+        model.addAttribute("sortedarray",sortedarray.toString());
 
 
         return "labs/Vihan/Sorts";

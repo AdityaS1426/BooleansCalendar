@@ -1,0 +1,64 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.w3.org/1999/xhtml">
+<head th:replace="fragments/headfile :: head">
+    <title>ListComparison</title>
+    <style>
+        RiverFormButton {
+            color:black
+        }
+
+    </style>
+</head>
+<body>
+<p>A linked list is a data structure which is known for the ease of inserting and deleting elements compared to other data structures</p>
+<p>We will compare the performance of the linked list to that of the arraylist, which is the more commmon mutable list object in java</p>
+
+
+<h1>Create List</h1>
+
+
+<form id="ListCreation">
+    <p>Choose the element type for the list</p>
+<div>
+    <input type="radio" th:name="listElementType" id="String" th:value="String">
+    <label for="String">String</label>
+
+    <input type="radio" th:name="" id="Integer" th:value="Integer">
+    <label for="Integer">Integer</label>
+
+    <input type="radio" th:name="" id="Computer/Laptop" th:value="Computer">
+    <label for="Computer/Laptop">Computer/Laptop</label>
+</div>
+
+<p>Choose length of list</p>
+    <div>
+        <label for="ListLength">Element</label>
+        <input type="number" th:name="listlength" id="ListLength">
+        <button id="IntegerButton">Submit</button>
+    </div>
+    <div>
+</form>
+<script>
+</script>
+<form id="ListModifier">
+    <h1>Add,Delete, or Sort</h1>
+    <input type="radio" th:name="listOperation" id="Add" th:value="Add">
+    <label for="Add">Add</label>
+    <input type="radio" th:name="listOperation" id="Delete" th:value="Delete">
+    <label for="Delete">Delete</label>
+    <input type="radio" th:name="listOperation" id="Sort" th:value="Sort">
+    <label for="Sort">Sort</label>
+</form>
+
+
+
+
+
+
+
+<h1>Operation Times</h1>
+<p th:text="'ArrayList: ' + ${arrayListTime}">
+<p th:text="'LinkedList: ' + ${linkedListTime}">
+    </div>
+</body>
+</html>
