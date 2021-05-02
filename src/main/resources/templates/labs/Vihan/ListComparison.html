@@ -23,31 +23,60 @@
     <input type="radio" th:name="listElementType" id="String" th:value="String">
     <label for="String">String</label>
 
-    <input type="radio" th:name="" id="Integer" th:value="Integer">
+    <input type="radio" th:name="listElementType" id="Integer" th:value="Integer">
     <label for="Integer">Integer</label>
 
-    <input type="radio" th:name="" id="Computer/Laptop" th:value="Computer">
+    <input type="radio" th:name="listElementType" id="Computer/Laptop" th:value="Computer">
     <label for="Computer/Laptop">Computer/Laptop</label>
 </div>
 
-<p>Choose length of list</p>
+<p>Choose initial length of list</p>
     <div>
         <label for="ListLength">Element</label>
         <input type="number" th:name="listlength" id="ListLength">
         <button id="IntegerButton">Submit</button>
     </div>
-    <div>
 </form>
+
+
+
 <script>
 </script>
 <form id="ListModifier">
-    <h1>Add,Delete, or Sort</h1>
+    <h1>Insert,Delete, or Sort</h1>
     <input type="radio" th:name="listOperation" id="Add" th:value="Add">
     <label for="Add">Add</label>
     <input type="radio" th:name="listOperation" id="Delete" th:value="Delete">
     <label for="Delete">Delete</label>
     <input type="radio" th:name="listOperation" id="Sort" th:value="Sort">
     <label for="Sort">Sort</label>
+
+
+    <div id="AddSection">
+        <input th:name="dataToInsert" id="AddSection-Add">
+        <label for="AddSection-Add">Element</label>
+        <input type="number" th:name="index to insert at" id="AddSection-Index">
+        <label for="AddSection-Index">Index</label>
+        <button id="AddSection-Button">Insert</button>
+    </div>
+
+    <div id="DeleteSection">
+        <input type th:name="IndexToDelete" id="DeleteSection-Index">
+        <label for="DeleteSection-Index">Index</label>
+
+    </div>
+
+    <div id="SortSection">
+        <input type="radio" th:name="sortMethod" th:value="Selection" id="SortSection-Selection">
+        <label for="SortSection-Selection">Selection</label>
+        <input type="radio" th:name="sortMethod" th:value="Insertion" id="SortSection-Insertion">
+        <label for="SortSection-Insertion">Selection</label>
+        <input type="radio" th:name="sortMethod" th:value="Bubble" id="SortSection-Bubble">
+        <label for="SortSection-Bubble">Selection</label>
+
+    </div>
+
+
 </form>
 
 

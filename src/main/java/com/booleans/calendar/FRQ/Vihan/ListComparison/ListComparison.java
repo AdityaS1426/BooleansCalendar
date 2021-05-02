@@ -6,9 +6,8 @@ import com.booleans.calendar.FRQ.Vihan.Inheritance.Computer;
 import com.booleans.calendar.FRQ.Vihan.Sorting.Sorts;
 
 
-public class ListComparison<T extends Comparable> {
-    public Class<T> listElementClass;
-    public Class<T> listType;
+public class ListComparison <T extends Comparable> {
+    public Class listElementClass;
     public int listlength;
     Map<String,Long> arrayListTimes;
     Map<String,Long> linkedListTimes;
@@ -17,19 +16,11 @@ public class ListComparison<T extends Comparable> {
 
     String[] times = {"BubbleSort","InsertionSort","SelectionSort","Insert","Delete"};
 
-    ArrayList<T> arrayList;
+    public ArrayList<T> arrayList;
     LinkedList<T> linkedList;
 
 
-    public ListComparison(Class<T> c, int listlength ) {
-        this.listlength = listlength;
-
-
-        this.listElementClass = c;
-
-        //generates array lists
-        generateLists(listlength);
-
+    public ListComparison(Class<T> listType,int listLength) {
         //hashmaps to store times for each operation
         arrayListTimes = new HashMap<String,Long>();
         linkedListTimes = new HashMap<String,Long>();
@@ -39,12 +30,20 @@ public class ListComparison<T extends Comparable> {
         arrayListTimes.put(i,(long) 0);
         linkedListTimes.put(i,(long)0);
         }
+
+        generateLists(listType,listlength);
     }
 
-    public void generateLists(int listlength) {
 
-        arrayList = new ArrayList<T>();
-        linkedList = new LinkedList<T>();
+    public void  generateLists(Class listType, int listlength) {
+
+        this.listlength = listlength;
+
+        this.listElementClass = listType.getClass();
+        this.arrayList = new ArrayList<>();
+        this.linkedList =  new LinkedList<>();
+
+
 
 
         if (listElementClass.equals(String.class)) {
@@ -52,7 +51,7 @@ public class ListComparison<T extends Comparable> {
 
                 String string = stringGenerator(new Random());
                 arrayList.add((T)string);
-                linkedList.add((T)string);
+                linkedList.add((T) string);
             }
         } else if(listElementClass.equals(Computer.class)) {
             Random random = new Random();
