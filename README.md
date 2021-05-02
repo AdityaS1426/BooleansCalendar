@@ -15,6 +15,15 @@ We are currently working on finding a domain-name.
 
 Click [here](https://docs.google.com/document/d/1_egHgpKx7FtzuqQB7QGcD1Rdo_Stov1bfvrn3Qzmf-4/edit?usp=sharing) to access the Booleans' Project Plan.
 
+## Links to Labs
+
+###### Aditya Surapaneni
+
+- [Recursion Lab](https://spring-boot-calculator.herokuapp.com/calculator)
+- [Inheritance Lab](https://inheritance-lab.herokuapp.com/inheritance)
+- [Sorts Lab](https://sort-lab.herokuapp.com/sort)
+- [LinkedList Lab](https://linked-list-lab.herokuapp.com/linked-list)
+
 ------------------------------------------------------ Week 5 ------------------------------------------------------
 
 ## Self Grading
@@ -84,7 +93,7 @@ Justifications:
 
 ###### Aditya Surapaneni
 
-[Link to Sorts Lab](https://insertion-sorts-lab.herokuapp.com/sort)
+[Link to Sorts Lab](https://sort-lab.herokuapp.com/sort)
 
 NOTE: The link above might take some time to load since the Sorts Lab is deployed on Heroku. Our team is working on deploying to AWS at the moment.
 
