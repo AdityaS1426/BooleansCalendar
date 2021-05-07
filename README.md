@@ -24,6 +24,30 @@ Click [here](https://docs.google.com/document/d/1_egHgpKx7FtzuqQB7QGcD1Rdo_Stov1
 - [Sorts Lab](https://sort-lab.herokuapp.com/sort)
 - [LinkedList Lab](https://linked-list-lab.herokuapp.com/linked-list)
 
+------------------------------------------------------ Week 6 ------------------------------------------------------
+
+## Self Grading
+
+###### Aditya Surapaneni
+
+Grade: 5/5
+
+Justifications:
+
+AP Practice Exam
+
+- I met all of the requirements explained in the "Retrospective Study" assignment on Canvas.
+- Click [here](https://drive.google.com/file/d/19rcmd65K71hk8VVJk2WHeZGufw5XEZLn/view?usp=sharing) to view a screenshot of my score on the 2015 Practice Exam MCQ.
+- Click [here](https://docs.google.com/document/d/1ZVSmdukn27dalHSudMiqhC5OTmrLiPhw3f9zTmMMrAY/edit?usp=sharing) to view the test corrections I completed. Click "2015 Practice Exam MCQ" in the table at the top of the document to be taken to the section of the document which contains the test corrections for this specific MCQ exam.
+- In my document for test corrections, I also linked some useful resources that I will utilize in order to strengthen my understanding in area that I'm weak in.
+
+Learning Task
+
+- Neil & I created a Google Slides presentation on 2D Arrays. Click [here](https://docs.google.com/presentation/d/1YVJ38zgP6HnR-St6XkXGPTRP78IvQr_5haVbIhLJxkw/edit?usp=sharing) to access the presentation. We chose "2D Arrays" for our topic since we both felt like we needed to improve our understanding of the topic.
+- The link to the College Board material that inspired us can be found on Slide 11 of the presentation. It's the Live AP Review video that covers 2D Arrays.
+- To demonstrate our understanding of 2D Arrays, Neil & I created a Spring Boot Application. Links to the back-end code, front-end code, a demonstration video, as well as instructions on how to test the program can be found on Slide 12 of the presentation.
+- Click [here](https://github.com/AdityaS1426/2DArrayIslands) to access the repository for the program.
+
 ------------------------------------------------------ Week 5 ------------------------------------------------------
 
 ## Self Grading
