@@ -69,6 +69,7 @@ NOTE: This ticket can also be found under the "Assigned" section of our Scrum Bo
 Grade: 5/5
 
 - I met all of the requirements for this week.
+- I planned my work for the next few weeks by making three tickets, which can be found above.
 - I took the 2020 Practice Exam 1 MCQ. Click [here](https://drive.google.com/file/d/1S6JYZhcssTbZh31Eb8UUSUQxp5Ic2M5B/view?usp=sharing) to view a screenshot for proof.
 - I completed all of the expectation on Ticket 1, which is the ticket I made for myself for this week. The following bullet points show evidence of completion of items on my ticket.
 - I took notes on a Google Doc while attending all of the presentations during class. Click [here](https://docs.google.com/document/d/1oWoL06lqrSV-zr2Q94Y7YZ6DaZg07iPelTGrmkQ0jAU/edit?usp=sharing) to view the Google Doc with the notes.
