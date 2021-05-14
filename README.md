@@ -24,6 +24,56 @@ Click [here](https://docs.google.com/document/d/1_egHgpKx7FtzuqQB7QGcD1Rdo_Stov1
 - [Sorts Lab](https://sort-lab.herokuapp.com/sort)
 - [LinkedList Lab](https://linked-list-lab.herokuapp.com/linked-list)
 
+------------------------------------------------------ Week 7 ------------------------------------------------------
+
+## Tickets
+
+###### Aditya Surapaneni
+
+Ticket 1 - 5/10 to 5/14
+
+NOTE: This ticket can also be found under the "Completed" section of our Scrum Board. To access our Scrum Board, click on "Projects" near the top of this repository.
+
+- Watch more AP Daily videos on topics I'm struggling with, such as Inheritance.
+- Attend the presentations during class in order to brush up on various concepts/topics.
+- Take notes on the presentations during class, especially on topics I'm struggling with.
+- Take the 2020 Practice Exam MCQ.
+- Complete part of an FRQ Practice Exam.
+
+Ticket 2 - 5/17 to 5/21
+
+NOTE: This ticket can also be found under the "Assigned" section of our Scrum Board. To access our Scrum Board, click on "Projects" near the top of this repository.
+
+- On the day before the AP Exam, brush up on a few concepts that were introduced during Trimester 1 & Trimester 2 to regain knowledge.
+- Start coding for the Final Project.
+- Set up the Controllers for the Calendar Application.
+- Start writing the code, in Java, for the input of information, such as Event Name, Event Description, Time, etc.
+- Write code, in HTML, so accommodate the code for the input of information.
+- Perhaps, if time is available, include CSS formatting to make the application appealing.
+
+Ticket 3 - 5/24 to 5/28
+
+NOTE: This ticket can also be found under the "Assigned" section of our Scrum Board. To access our Scrum Board, click on "Projects" near the top of this repository.
+
+- Continue coding the Final Project.
+- Write code, in Java, to allow user to edit/modify inputted information.
+- Write code, in Java, to allow user to delete events on a specific day.
+- Write code, in Java, for the notification system, if team figures out how to connect to e-mail, Canvas, etc.
+- Write the accommodating HTML code for the edit/delete/notification functions.
+- Update the CSS formatting to accommodate for the additions/revisions to the application.
+
+## Self Grading/Deliverables/Evidence of Ticket Completion
+
+###### Aditya Surapaneni
+
+Grade: 5/5
+
+- I met all of the requirements for this week.
+- I took the 2020 Practice Exam 1 MCQ. Click [here](https://drive.google.com/file/d/1S6JYZhcssTbZh31Eb8UUSUQxp5Ic2M5B/view?usp=sharing) to view a screenshot for proof.
+- I completed all of the expectation on Ticket 1, which is the ticket I made for myself for this week. The following bullet points show evidence of completion of items on my ticket.
+- I took notes on a Google Doc while attending all of the presentations during class. Click [here](https://docs.google.com/document/d/1oWoL06lqrSV-zr2Q94Y7YZ6DaZg07iPelTGrmkQ0jAU/edit?usp=sharing) to view the Google Doc with the notes.
+- I decided to take part of a Practice Exam FRQ. I completed Problems 3-4 in the 2017 Practice Exam FRQ. Click [here](https://docs.google.com/document/d/1ZVSmdukn27dalHSudMiqhC5OTmrLiPhw3f9zTmMMrAY/edit?usp=sharing) to view the Google Doc, which I typed my answers into. Click on "2017 Practice Exam FRQ" in the table at the top to be taken to the part of the Google Doc with the code I wrote for the FRQ. I checked my answers with the solutions, and all of my code was correct.
+
 ------------------------------------------------------ Week 6 ------------------------------------------------------
 
 ## Self Grading
