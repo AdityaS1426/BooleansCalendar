@@ -147,7 +147,7 @@ Ticket 3: 5/24-5/28 Integration
 
 ###### Self Grading for Innovation Tickets- Neil Sahai.
 
-Grade 5/5:
+Grade: 5/5
 
 - I completed all of the requirements for this week:
 - I created three tickets for the next few weeks, which can be seen above
@@ -183,7 +183,7 @@ Grade: 5/5
 - I took the 2020 Practice Exam 1 MCQ. Click [here](https://drive.google.com/file/d/1S6JYZhcssTbZh31Eb8UUSUQxp5Ic2M5B/view?usp=sharing) to view a screenshot for proof.
 - I completed all of the expectation on Ticket 1, which is the ticket I made for myself for this week. The following bullet points show evidence of completion of items on my ticket.
 - I took notes on a Google Doc while attending all of the presentations during class. Click [here](https://docs.google.com/document/d/1oWoL06lqrSV-zr2Q94Y7YZ6DaZg07iPelTGrmkQ0jAU/edit?usp=sharing) to view the Google Doc with the notes.
-- I decided to take part of a Practice Exam FRQ. I completed Problems 3-4 in the 2017 Practice Exam FRQ. Click [here](https://docs.google.com/document/d/1ZVSmdukn27dalHSudMiqhC5OTmrLiPhw3f9zTmMMrAY/edit?usp=sharing) to view the Google Doc, which I typed my answers into. Click on "2017 Practice Exam FRQ" in the table at the top to be taken to the part of the Google Doc with the code I wrote for the FRQ. I checked my answers with the solutions, and all of my code was correct.
+- I decided to take parts of two Practice Exam FRQs. I completed Problems 3 - 4 in the 2017 Practice Exam FRQ, as well as Problems 1 - 2 in the 2019 Practice Exam FRQ. Click [here](https://docs.google.com/document/d/1ZVSmdukn27dalHSudMiqhC5OTmrLiPhw3f9zTmMMrAY/edit?usp=sharing) to view the Google Doc, which I typed my answers into. Click on "2017 Practice Exam FRQ" in the table at the top to be taken to the part of the Google Doc with the code I wrote for the FRQ. I checked my answers with the solutions, and all of my code was correct.
 
 
 ###### Yasaswi Singamneni
