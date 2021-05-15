@@ -129,7 +129,7 @@ Grade 5/5:
 
 - I completed all of the requirements for this week:
 - I created three tickets for the next few weeks, which can be seen above
-- I completed mu first ticket of completing the [APCSA 2021 administered exam](https://drive.google.com/file/d/1CJQn0zw80lFeYM_Fjf85xBG6OvPN0QSg/view?usp=sharing)
+- I completed mu first ticket of completing the [APCSA 2014 MC](https://drive.google.com/file/d/1CJQn0zw80lFeYM_Fjf85xBG6OvPN0QSg/view?usp=sharing)
 - I also took the 2020 MCQs, which can be seen here: [2020 MCQ Score](https://drive.google.com/file/d/1gGR9-2xUYsjS6UkuzAZfkhrI59wOFBtf/view?usp=sharing)
 - I put more research into the Iteration/Classes in Prep Book. (Difficult to get evidence for this)
 
@@ -138,7 +138,7 @@ Grade 5/5:
 Grade 5/5:
 - I completed all of the requirements for this week:
 - I created three tickets for the next few weeks, which can be seen above
-- I completed my first ticket of completing the [AP CSA 2014 MC](https://apcentral.collegeboard.org/pdf/ap21-frq-computer-science-a.pdf), for which my code can be seen here: [2021 CSA FRQ Praveen](https://drive.google.com/file/d/14Dj06AneYhhGL5-4CvBgHk_xAAz1eiRt/view?usp=sharing)
+- I completed my first ticket of completing the [AP CSA 2021 FRQ](https://apcentral.collegeboard.org/pdf/ap21-frq-computer-science-a.pdf), for which my code can be seen here: [2021 CSA FRQ Praveen](https://drive.google.com/file/d/14Dj06AneYhhGL5-4CvBgHk_xAAz1eiRt/view?usp=sharing)
 - I also took all of the MCQs, which can be seen here: [2020 MCQ Score](https://drive.google.com/file/d/1NiGxwiJO9FgDnp6LJqynbkqhAcHm0n3t/view?usp=sharing)
 
 
