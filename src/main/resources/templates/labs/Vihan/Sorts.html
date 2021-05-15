@@ -1,11 +1,13 @@
 <!DOCTYPE HTML>
 <html xmlns:th="http://www.w3.org/1999/xhtml">
-<head th:replace="fragments/headfile :: head">
+<head  th:replace="fragments/headfile :: head">
     <title>Sorts</title>
     <style>
-        SortButton {
-            color:black
-        }
+
+p {
+    indent-text: 5em;
+}
+
     </style>
 </head>
 <body>
@@ -14,10 +16,12 @@
     <a href="https://www.geeksforgeeks.org/insertion-sort/">Insertion</a>
     <a href="https://www.geeksforgeeks.org/selection-sort/">Selection</a>
     <a href="https://www.geeksforgeeks.org/bubble-sort/">Bubble</a>
+
+
     <form th:action="@{Sorts}">
 
         <div>
-            <legend>Choose the type of data in the array:</legend>
+            <div class="heading"><p>Choose the type of data in the array:</p></div>
             <input type="radio" th:name="arrayType" id="integer" th:value="Integer" required>
             <label for="integer">Integer</label>
             <input type="radio" th:name="arrayType" id="string" th:value="String">
@@ -25,7 +29,8 @@
             <input type="radio" th:name="arrayType" id="Computer" th:value="Computer">
             <label for="Computer">Computer</label>
         </div>
-            <legend>Choose the sorting algorithm</legend>
+        <div>
+            <div class="heading"><p>Choose the sorting algorithm</p></div>
             <input type="radio" th:name="sortMethod" id="insertion" th:value="Insertion" required>
             <label for="insertion">Insertion</label>
             <input type="radio" th:name="sortMethod" id="bubble" th:value="Bubble">
@@ -35,7 +40,7 @@
         </div>
         <!--<label for="array">Input array, must be of type integer or string</label>-->
         <!--<input name="array" id="array">-->
-        <button id="Sortbutton">Go!</button>
+        <button id="Sortbutton"><span></span>Sort</button>
     </form>
 
 <div th:switch="${sortMethod}" class="content">
@@ -53,7 +58,7 @@
     </div>
 
     <div th:case="*" class="description">
-        <p>Click on the buttons. Click "Submit" to see the result..</p>
+        <div class="heading"><p>Click on the buttons. Click "Submit" to see the result..</p></div>
     </div>
 </div>
 

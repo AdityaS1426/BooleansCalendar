@@ -45,7 +45,7 @@
 
     <div id="formContainer">
         <form id="formC" th:action="@{Inheritance}" >
-            <h1>Choose the class of Computer</h1>
+            <div class="heading"><p>Choose the class of Computer</p></div>
             <input type="radio" th:name="computerType" onclick="changeClass(this.value)"id="computer" th:value="Computer">
             <label for="computer">Computer</label>
             <input type="radio" th:name="computerType" onclick="changeClass(this.value)" id="laptop" th:value="Laptop">
@@ -86,7 +86,7 @@
         </script>
                 </div>
                 <div class="column">
-                    <h1>Operating System</h1>
+                    <div class="heading"><p>Operating System</p></div>
                     <label class="labels" for="ubuntu">Ubuntu</label>
                     <input type="radio"th:name="operatingsystem"id="ubuntu" th:value="Ubuntu">
                     <label class="labels" for="macos">MacOS</label>
@@ -97,11 +97,11 @@
 
 
             </div>
-            <button id="Inheritancebutton">Create</button>
+            <button id="Inheritancebutton"><span></span>Create</button>
         </form>
     </div>
 
-    <h1><p th:text="${computerToString}"></p></h1>
+    <div class="heading"><p th:text="${computerToString}"></p></div>
 
 
 
