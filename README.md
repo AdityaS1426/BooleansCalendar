@@ -45,6 +45,25 @@ Ticket 2: 5/17-5/21 Catch up with Linked List Lab & PBL Study
 
 Ticket 3: 5/24-5/28 Research Canvas API + how to encrypt data when sending student password and username to Canvas API 
 
+###### Praveen Natarajan Tickets
+
+Ticket 1: 5/10-5/15 Study for the CSA test through practice FRQs as well as through multiple choice tests 
+
+- Worked in a group with Pranav and Aryan to finish the MC on collge board
+- Did the official 2021 APCSA frq that was adminstered
+- Continued to watch the daily college board videos on the different topics that I had trouble with
+
+Ticket 2: 5/17-5/21 Experiment with Databases
+
+- Research the Canvas API and how to store the data in databases
+- Help with planning for the layout of the final site
+- Help Yasaswi with his integration of frontend and backend
+
+Ticket 3: 5/24-5/28 Integration
+
+- Work on integration between HTML and the Java code
+- Hopefully impliment the database into Java
+- Clean up the UI, and add more features if necessary
 
 
 ###### Aditya Surapaneni
