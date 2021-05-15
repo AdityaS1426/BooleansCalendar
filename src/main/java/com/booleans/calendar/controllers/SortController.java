@@ -1,4 +1,4 @@
-package com.booleans.calendar;
+package com.booleans.calendar.controllers;
 
 import com.booleans.calendar.FRQ.Vihan.Inheritance.Computer;
 import com.booleans.calendar.FRQ.Vihan.Sorting.Sorts;

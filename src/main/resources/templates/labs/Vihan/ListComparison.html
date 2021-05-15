@@ -1,13 +1,12 @@
 <!DOCTYPE HTML>
 <html xmlns:th="http://www.w3.org/1999/xhtml">
-<head th:replace="fragments/headfile :: head">
+<head>
     <title>ListComparison</title>
     <style>
-        RiverFormButton {
-            color:black
-        }
 
     </style>
+    <script defer th:src="@{/js/ListComparison.js}" type="text/javascript"></script>
+
 </head>
 <body>
 <p>A linked list is a data structure which is known for the ease of inserting and deleting elements compared to other data structures</p>
@@ -18,25 +17,33 @@
 
 
 <form id="ListCreation">
-    <p>Choose the element type for the list</p>
-<div>
-    <input type="radio" th:name="listElementType" id="String" th:value="String">
-    <label for="String">String</label>
 
-    <input type="radio" th:name="listElementType" id="Integer" th:value="Integer">
-    <label for="Integer">Integer</label>
+    <div class ="">
+        <p>Choose the element type for the list</p>
+        <input type="radio" th:name="listElementType" id="String" th:value="String">
+        <label for="String">String</label>
 
-    <input type="radio" th:name="listElementType" id="Computer/Laptop" th:value="Computer">
-    <label for="Computer/Laptop">Computer/Laptop</label>
-</div>
+        <input type="radio" th:name="listElementType" id="Integer" th:value="Integer">
+        <label for="Integer">Integer</label>
 
-<p>Choose initial length of list</p>
+        <input type="radio" th:name="listElementType" id="Computer/Laptop" th:value="Computer">
+        <label for="Computer/Laptop">Computer/Laptop</label>
+    </div>
     <div>
-        <label for="ListLength">Element</label>
-        <input type="number" th:name="listlength" id="ListLength">
-        <button id="IntegerButton">Submit</button>
+        <p>Choose initial length of list</p>
+        <label for="ListLength">Length</label>
+        <input type ="number" min="0" th:name="listlength" id="ListLength">
+        <button class="btn listcreationsubmit"id="ListCreationSubmitButton">Submit</button>
+
+
+
+
     </div>
 </form>
+
+<div id="CreateListSection" style="display: none">
+    <button id="NewListCreationButton">Create New List</button>
+</div>
 
 
 
@@ -55,7 +62,7 @@
     <div id="AddSection">
         <input th:name="dataToInsert" id="AddSection-Add">
         <label for="AddSection-Add">Element</label>
-        <input type="number" th:name="index to insert at" id="AddSection-Index">
+        <input type="number" th:name="indexToInsert" id="AddSection-Index">
         <label for="AddSection-Index">Index</label>
         <button id="AddSection-Button">Insert</button>
     </div>
@@ -63,6 +70,7 @@
     <div id="DeleteSection">
         <input type th:name="IndexToDelete" id="DeleteSection-Index">
         <label for="DeleteSection-Index">Index</label>
+        <button id="DeleteSection-Button">Insert</button>
 
     </div>
 
@@ -73,17 +81,10 @@
         <label for="SortSection-Insertion">Selection</label>
         <input type="radio" th:name="sortMethod" th:value="Bubble" id="SortSection-Bubble">
         <label for="SortSection-Bubble">Selection</label>
+        <button id="SortSection-Button">Insert</button>
 
     </div>
-
-
 </form>
-
-
-
-
-
-
 
 <h1>Operation Times</h1>
 <p th:text="'ArrayList: ' + ${arrayListTime}">

@@ -14,13 +14,16 @@ public class ListComparison <T extends Comparable> {
 
     private Class<T> Class;
 
-    String[] times = {"BubbleSort","InsertionSort","SelectionSort","Insert","Delete"};
+    String[] times = {"Sort","Insert","Delete"};
 
     public ArrayList<T> arrayList;
     LinkedList<T> linkedList;
 
 
     public ListComparison(Class<T> listType,int listLength) {
+        this.listlength=listLength;
+
+        this.listElementClass = listType.getClass();
         //hashmaps to store times for each operation
         arrayListTimes = new HashMap<String,Long>();
         linkedListTimes = new HashMap<String,Long>();
@@ -37,9 +40,7 @@ public class ListComparison <T extends Comparable> {
 
     public void  generateLists(Class listType, int listlength) {
 
-        this.listlength = listlength;
 
-        this.listElementClass = listType.getClass();
         this.arrayList = new ArrayList<>();
         this.linkedList =  new LinkedList<>();
 
@@ -106,6 +107,8 @@ public class ListComparison <T extends Comparable> {
         linkedList.add(index,element);
         duration = System.nanoTime() - start;
         linkedListTimes.replace("Insert",duration);
+
+        listlength = arrayList.size();
     }
     public void addElementAtIndex(T element) {
         long start = System.nanoTime();
@@ -118,6 +121,8 @@ public class ListComparison <T extends Comparable> {
         linkedList.add(element);
         duration = System.nanoTime() - start;
         linkedListTimes.replace("Insert",duration);
+
+        listlength = arrayList.size();
     }
 
 
@@ -131,6 +136,8 @@ public class ListComparison <T extends Comparable> {
         linkedList.remove(element);
         duration = System.nanoTime() - start;
         arrayListTimes.replace("Insert",duration);
+
+        listlength = arrayList.size();
     }
     public void deleteElement() {
         long start = System.nanoTime();
@@ -143,6 +150,8 @@ public class ListComparison <T extends Comparable> {
         linkedList.remove(listlength-1);
         duration = System.nanoTime() - start;
         linkedListTimes.replace("Delete",duration);
+
+        listlength = arrayList.size();
     }
 
     public void deleteElement(int index) {
@@ -157,28 +166,54 @@ public class ListComparison <T extends Comparable> {
         linkedList.remove(index);
         duration = System.nanoTime() - start;
         linkedListTimes.replace("Delete",duration);
+
+        listlength = arrayList.size();
     }
 
 
     public void sortLists(String sortMethod) {
-        switch (sortMethod) {
-            case "Selection":
+            if(sortMethod.compareTo("Selection")==0){
+
+                long start = System.nanoTime();
                 arrayList = (ArrayList<T>) Sorts.selectionSort(arrayList);
+                arrayListTimes.replace("Sort", System.nanoTime() - start);
+
+                start = System.nanoTime();
                 linkedList = (LinkedList<T>) Sorts.selectionSort(linkedList);
-                break;
-            case "Insertion":
-                arrayList = (ArrayList<T>)Sorts.insertionSort(arrayList);
-                linkedList = (LinkedList<T>)Sorts.insertionSort(linkedList);
-                break;
-            case "Bubble":
+                linkedListTimes.replace("Sort",System.nanoTime()-start);
+            } else if
+            (sortMethod.compareTo("Insertion")==0) {
+                long start = System.nanoTime();
+                arrayList = (ArrayList<T>) Sorts.insertionSort(arrayList);
+                arrayListTimes.replace("Sort", System.nanoTime() - start);
+
+                start = System.nanoTime();
+                linkedList = (LinkedList<T>) Sorts.insertionSort(linkedList);
+                linkedListTimes.replace("Sort",System.nanoTime()-start);
+
+            } else {
+                long start = System.nanoTime();
                 arrayList = (ArrayList<T>)Sorts.bubbleSort(arrayList);
+                arrayListTimes.replace("Sort", System.nanoTime()-start);
+
+                start = System.nanoTime();
                 linkedList = (LinkedList<T>)Sorts.bubbleSort(linkedList);
-                break;
+                linkedListTimes.replace("Sort",System.nanoTime()-start);
+
         }
 
-
-
     }
+    public List getList() {
+        return this.arrayList;
+    }
+
+    public Map<String,Long> getArrayListTimes() {
+        return arrayListTimes;
+    }
+    public Map<String,Long> getLinkedListTimes() {
+        return linkedListTimes;
+    }
+
 
 
     public static void main(String[] args) {

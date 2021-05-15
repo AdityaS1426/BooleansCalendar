@@ -1,4 +1,4 @@
-package com.booleans.calendar;
+package com.booleans.calendar.controllers;
 
 import org.springframework.stereotype.Controller;
 import com.booleans.calendar.FRQ.Neil.Inheritance;
