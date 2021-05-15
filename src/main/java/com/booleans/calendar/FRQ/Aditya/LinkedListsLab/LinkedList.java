@@ -4,16 +4,6 @@ import java.util.ArrayList;
 
 public class LinkedList
 {
-    public static class Node
-    {
-        public Node next;
-        int value;
-        Node(int v)
-        {
-            this.value = v;
-            this.next = null;
-        }
-    }
     public Node head;
 
     public void addNode(int value)
