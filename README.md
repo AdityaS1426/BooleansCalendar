@@ -121,6 +121,28 @@ NOTE: This ticket can also be found under the "Assigned" section of our Scrum Bo
 - Write the accommodating HTML code for the edit/delete/notification functions.
 - Update the CSS formatting to accommodate for the additions/revisions to the application.
 
+
+###### Yasaswi Singamneni Tickets
+
+Ticket 1: 5/10-5/15 Study for the AP CSA test by doing previous ap frq and mc questions 
+
+- Do the 2021 AP Computer Science FRQ test
+- Review explanations of previous FRQ questions given by college board.
+- Watch videos on youtube that breakdown past AP Exams
+
+Ticket 2: 5/17-5/21 Experiment with Databases
+
+- Determine and get familiar with a type of database (MongoDB/SQL/etc)
+- Start to write code to read from database
+- Integrate backend and front end code
+
+Ticket 3: 5/24-5/28 Integration
+
+- Work on integration between HTML and the Java code
+- Finish java code for reading and writing to and from databases
+- Help polish UI and other front end aspects
+
+
 ## Self Grading/Deliverables/Evidence of Ticket Completion for Innovation Tickets
 
 ###### Self Grading for Innovation Tickets- Neil Sahai.
@@ -162,6 +184,17 @@ Grade: 5/5
 - I completed all of the expectation on Ticket 1, which is the ticket I made for myself for this week. The following bullet points show evidence of completion of items on my ticket.
 - I took notes on a Google Doc while attending all of the presentations during class. Click [here](https://docs.google.com/document/d/1oWoL06lqrSV-zr2Q94Y7YZ6DaZg07iPelTGrmkQ0jAU/edit?usp=sharing) to view the Google Doc with the notes.
 - I decided to take part of a Practice Exam FRQ. I completed Problems 3-4 in the 2017 Practice Exam FRQ. Click [here](https://docs.google.com/document/d/1ZVSmdukn27dalHSudMiqhC5OTmrLiPhw3f9zTmMMrAY/edit?usp=sharing) to view the Google Doc, which I typed my answers into. Click on "2017 Practice Exam FRQ" in the table at the top to be taken to the part of the Google Doc with the code I wrote for the FRQ. I checked my answers with the solutions, and all of my code was correct.
+
+
+###### Yasaswi Singamneni
+
+Grade: 5/5
+
+- I did all the practice I scheduled for myself this week.
+- I delegated tasks for myself for the next 3 weeks.
+- I took the 2020 Practice Exam 1 FRQ. [Link to code](https://docs.google.com/document/d/1_vPD8f3NgUe2dZGe2sOZLoFjg0XjC9eHtYUtRa3wcZY/edit?usp=sharing)
+- I watched [this youtube video](https://www.youtube.com/watch?v=kE-H5oNSZ5w) to go over the 2021 FRQ Question 2
+
 
 ------------------------------------------------------ Week 6 ------------------------------------------------------
 
