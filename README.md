@@ -45,14 +45,6 @@ Ticket 2: 5/17-5/21 Catch up with Linked List Lab & PBL Study
 
 Ticket 3: 5/24-5/28 Research Canvas API + how to encrypt data when sending student password and username to Canvas API 
 
-#####Self Grading for Introspective Study - Vihan J.
-
-Grade 5/5:
-
-- I completed all of the requirements for this week:
-- I created three tickets for the next few weeks, which can be seen above
-- I completed Ticket 1 for this week, which was to add CSS styling to my minilabs - evidence of code can be seen here: [CSS in headfile](https://github.com/AdityaS1426/BooleansCalendar/blob/b31f0c6bc04ff338e5e06172a3d8e2c43faf3d2b/src/main/resources/templates/fragments/headfile.html#L12) [See style](http://3.131.39.159/labs/Vihan/Sorts)
-- I also took the 2020 MCQ, which can be seen here: [2020 MCQ Score](https://docs.google.com/document/d/1t0h9ROqknCZx62hWPYlUHlt6i2jQs1rG9nfeLyuxTaY/edit?usp=sharing)
 
 
 ###### Aditya Surapaneni
@@ -89,7 +81,16 @@ NOTE: This ticket can also be found under the "Assigned" section of our Scrum Bo
 - Write the accommodating HTML code for the edit/delete/notification functions.
 - Update the CSS formatting to accommodate for the additions/revisions to the application.
 
-## Self Grading/Deliverables/Evidence of Ticket Completion
+## Self Grading/Deliverables/Evidence of Ticket Completion for Innovation Tickets
+
+###### Self Grading for Innovation Tickets- Vihan J.
+
+Grade 5/5:
+
+- I completed all of the requirements for this week:
+- I created three tickets for the next few weeks, which can be seen above
+- I completed Ticket 1 for this week, which was to add CSS styling to my minilabs - evidence of code can be seen here: [CSS in headfile](https://github.com/AdityaS1426/BooleansCalendar/blob/b31f0c6bc04ff338e5e06172a3d8e2c43faf3d2b/src/main/resources/templates/fragments/headfile.html#L12) [See style](http://3.131.39.159/labs/Vihan/Sorts)
+- I also took the 2020 MCQ, which can be seen here: [2020 MCQ Score](https://docs.google.com/document/d/1t0h9ROqknCZx62hWPYlUHlt6i2jQs1rG9nfeLyuxTaY/edit?usp=sharing)
 
 ###### Aditya Surapaneni
 
