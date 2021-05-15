@@ -102,6 +102,16 @@ NOTE: This ticket can also be found under the "Assigned" section of our Scrum Bo
 
 ## Self Grading/Deliverables/Evidence of Ticket Completion for Innovation Tickets
 
+###### Self Grading for Innovation Tickets- Praveen N.
+
+Grade 5/5:
+
+- I completed all of the requirements for this week:
+- I created three tickets for the next few weeks, which can be seen above
+- I completed mu first ticket of completing the [APCSA 2021 administered exam](https://apcentral.collegeboard.org/pdf/ap21-frq-computer-science-a.pdf), for which my code can be seen here: [2021 CSA FRQ Praveen](https://drive.google.com/file/d/14Dj06AneYhhGL5-4CvBgHk_xAAz1eiRt/view?usp=sharing)
+- I also took all of the MCQs, which can be seen here: [2020 MCQ Score](https://drive.google.com/file/d/1NiGxwiJO9FgDnp6LJqynbkqhAcHm0n3t/view?usp=sharing)
+
+
 ###### Self Grading for Innovation Tickets- Vihan J.
 
 Grade 5/5:
