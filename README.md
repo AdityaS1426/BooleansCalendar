@@ -65,6 +65,27 @@ Ticket 3: 5/24-5/28 Integration
 - Hopefully impliment the database into Java
 - Clean up the UI, and add more features if necessary
 
+###### Neil Sahai Tickets
+
+Ticket 1: 5/10-5/15 Study for the CSA test through practice FRQs as well as through multiple choice tests 
+
+- Worked by myself to complete the 2014 MC on collge board
+- Did the APCSA frq that was in my book
+- Refreshed on classes and iteration topic section and completed some MC in my prep book
+- Continued to watch the daily college board videos (AP Live Reviews) and Presentations in class
+
+Ticket 2: 5/17-5/21 PBL project
+
+- Begin to implement the Canvas API and how to store the data in databases
+- Assist with the build up of the website on the frontend
+- Help Aditya with his development and integration of both aspects of our website/notification system
+
+Ticket 3: 5/24-5/28 Integration
+
+- Work on integration between HTML and the Java code with Praveen
+- Add CSS styling and focus on the User experience (Customer Focused Deliverable)
+- Troubleshoot and make sure that everything is ready for N@TM (Login System/Adding Events/etc)
+
 
 ###### Aditya Surapaneni
 
@@ -102,14 +123,24 @@ NOTE: This ticket can also be found under the "Assigned" section of our Scrum Bo
 
 ## Self Grading/Deliverables/Evidence of Ticket Completion for Innovation Tickets
 
-###### Self Grading for Innovation Tickets- Praveen N.
+###### Self Grading for Innovation Tickets- Neil Sahai.
 
 Grade 5/5:
 
 - I completed all of the requirements for this week:
 - I created three tickets for the next few weeks, which can be seen above
-- I completed mu first ticket of completing the [APCSA 2021 administered exam](https://apcentral.collegeboard.org/pdf/ap21-frq-computer-science-a.pdf), for which my code can be seen here: [2021 CSA FRQ Praveen](https://drive.google.com/file/d/14Dj06AneYhhGL5-4CvBgHk_xAAz1eiRt/view?usp=sharing)
+- I completed mu first ticket of completing the [APCSA 2021 administered exam](https://drive.google.com/file/d/1CJQn0zw80lFeYM_Fjf85xBG6OvPN0QSg/view?usp=sharing)
+- I also took the 2020 MCQs, which can be seen here: [2020 MCQ Score](https://drive.google.com/file/d/1gGR9-2xUYsjS6UkuzAZfkhrI59wOFBtf/view?usp=sharing)
+- I put more research into the Iteration/Classes in Prep Book. (Difficult to get evidence for this)
+
+###### Self Grading for Innovation Tickets- Praveen N.
+
+Grade 5/5:
+- I completed all of the requirements for this week:
+- I created three tickets for the next few weeks, which can be seen above
+- I completed my first ticket of completing the [AP CSA 2014 MC](https://apcentral.collegeboard.org/pdf/ap21-frq-computer-science-a.pdf), for which my code can be seen here: [2021 CSA FRQ Praveen](https://drive.google.com/file/d/14Dj06AneYhhGL5-4CvBgHk_xAAz1eiRt/view?usp=sharing)
 - I also took all of the MCQs, which can be seen here: [2020 MCQ Score](https://drive.google.com/file/d/1NiGxwiJO9FgDnp6LJqynbkqhAcHm0n3t/view?usp=sharing)
+
 
 
 ###### Self Grading for Innovation Tickets- Vihan J.
