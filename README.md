@@ -25,26 +25,7 @@ Click [here](https://docs.google.com/document/d/1_egHgpKx7FtzuqQB7QGcD1Rdo_Stov1
 - [LinkedList Lab](https://linked-list-lab.herokuapp.com/linked-list)
 
 ------------------------------------------------------ Week 7 ------------------------------------------------------
-
-## Tickets
-
-###### Vihan Jayaraman Tickets for May
-
-Ticket 1: 5/10-5/14 Use CSS styling to add aesthetic to Mini-Labs
-
-- Research CSS attributes and how to implement change
-- Code CSS for each of my mini-labs (they are currently plain)
-- Further research AJAX for next week
-
-Ticket 2: 5/17-5/21 Catch up with Linked List Lab & PBL Study
-
-- Research asynchronous get and post methods with Spring Boot
-- Research Spring Boot Data Validation and Response Body structures
-- Complete 2020 MC, show evidence of work and correction
-- Start Research on Canvas API
-
-Ticket 3: 5/24-5/28 Research Canvas API + how to encrypt data when sending student password and username to Canvas API 
-
+ 
 ###### Praveen Natarajan Tickets
 
 Ticket 1: 5/10-5/15 Study for the CSA test through practice FRQs as well as through multiple choice tests 
@@ -167,11 +148,15 @@ Grade 5/5:
 
 ###### Self Grading for Innovation Tickets- Vihan J.
 
-Grade 5/5:
+Total Grade 5/5:
 
-- I completed all of the requirements for this week:
-- I created three tickets for the next few weeks, which can be seen above
-- I completed Ticket 1 for this week, which was to add CSS styling to my minilabs - evidence of code can be seen here: [CSS in headfile](https://github.com/AdityaS1426/BooleansCalendar/blob/b31f0c6bc04ff338e5e06172a3d8e2c43faf3d2b/src/main/resources/templates/fragments/headfile.html#L12) [See style](http://3.131.39.159/labs/Vihan/Sorts)
+Ticket Creation: 3/3
+- I created the three required tickets for the next few weeks, which can be seen [here](https://github.com/AdityaS1426/BooleansCalendar/projects/3?add_cards_query=is%3Aopen)
+
+Deliverables: 2/2
+- I completed Ticket 1 for this week, which was to add CSS styling to my minilabs - evidence of code can be seen here: 
+   [CSS in headfile](https://github.com/AdityaS1426/BooleansCalendar/blob/b31f0c6bc04ff338e5e06172a3d8e2c43faf3d2b/src/main/resources/templates/fragments/headfile.html#L12) 
+   [See style](http://3.131.39.159/labs/Vihan/Sorts)
 - I also took the 2020 MCQ, which can be seen here: [2020 MCQ Score](https://docs.google.com/document/d/1t0h9ROqknCZx62hWPYlUHlt6i2jQs1rG9nfeLyuxTaY/edit?usp=sharing)
 
 ###### Aditya Surapaneni
