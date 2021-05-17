@@ -5,34 +5,34 @@
     <title>VihanInheritance</title>
 
     <style>
-    #InheritanceFormContainer{
-  width:40%;
-  margin:auto;
-}
-#formC{
-  width:100%;
-}
+        #formContainer{
+            width:40%;
+            margin:auto;
+        }
+        #formC{
+            width:100%;
+        }
         .rows{
-  width:100%;
-  display:block;
+            width:100%;
+            display:block;
 
-}
-.column{
-    width:100%;
-    display:inline-block;
+        }
+        .column{
+            width:100%;
+            display:inline-block;
 
-}
-.labels{
+        }
+        .labels{
 
-  width:30%
-  float:left;
-}
-.inputs{
+            width:30%
+            float:left;
+        }
+        .inputs{
 
 
-  width:60%;
-  float:right;
-}
+            width:60%;
+            float:right;
+        }
 
     </style>
 </head>
@@ -43,9 +43,9 @@
     <p>You can also choose to create a laptop, which inherits all attributes from computer, but also has a battery life attribute</p>
 
 
-    <div th:fragment="InheritanceFormContainer">
+    <div id="formContainer">
         <form id="formC" th:action="@{Inheritance}" >
-            <div class="heading"><p>Choose the class of Computer</p></div>
+            <h1>Choose the class of Computer</h1>
             <input type="radio" th:name="computerType" onclick="changeClass(this.value)"id="computer" th:value="Computer">
             <label for="computer">Computer</label>
             <input type="radio" th:name="computerType" onclick="changeClass(this.value)" id="laptop" th:value="Laptop">
@@ -71,22 +71,22 @@
                     <label class="labels" for="batteryduration">Laptop Battery Duration (in hrs)</label>
                     <input class="inputs" name="batteryduration" id="batteryduration">
                     <script>
-                let batteryDurationForm = document.getElementById("batteryDurationInput");
+                        let batteryDurationForm = document.getElementById("batteryDurationInput");
 
 
-                function changeClass(value) {
+                        function changeClass(value) {
 
-                    if (value==="Laptop") {
-                        batteryDurationForm.style.display = "block";
-                   } else {
-                        batteryDurationForm.style.display = "none";
+                            if (value==="Laptop") {
+                                batteryDurationForm.style.display = "block";
+                            } else {
+                                batteryDurationForm.style.display = "none";
+                            }
                         }
-                }
-                changeClass("");
-        </script>
+                        changeClass("");
+                    </script>
                 </div>
                 <div class="column">
-                    <div class="heading"><p>Operating System</p></div>
+                    <h1>Operating System</h1>
                     <label class="labels" for="ubuntu">Ubuntu</label>
                     <input type="radio"th:name="operatingsystem"id="ubuntu" th:value="Ubuntu">
                     <label class="labels" for="macos">MacOS</label>
@@ -97,11 +97,11 @@
 
 
             </div>
-            <button id="Inheritancebutton"><span></span>Create</button>
+            <button id="Inheritancebutton">Create</button>
         </form>
     </div>
 
-    <div class="heading"><p th:text="${computerToString}"></p></div>
+    <h1><p th:text="${computerToString}"></p></h1>
 
 
 

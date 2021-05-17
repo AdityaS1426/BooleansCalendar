@@ -1,0 +1,62 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.w3.org/1999/xhtml">
+<head th:replace="fragments/headfile :: head">
+    <title>Sorts</title>
+    <style>
+        SortButton {
+            color:black
+        }
+    </style>
+</head>
+<body>
+<div>
+    <form th:action="@{Sorts}">
+
+        <div>
+            <legend>Choose the type of data in the array:</legend>
+            <input type="radio" th:name="arrayType" id="integer" th:value="Integer" required>
+            <label for="integer">Integer</label>
+            <input type="radio" th:name="arrayType" id="string" th:value="String">
+            <label for="string">String</label>
+            <input type="radio" th:name="arrayType" id="Computer" th:value="Computer">
+            <label for="Computer">Computer</label>
+        </div>
+        <legend>Choose the sorting algorithm</legend>
+        <input type="radio" th:name="sortMethod" id="insertion" th:value="Insertion" required>
+        <label for="insertion">Insertion</label>
+        <input type="radio" th:name="sortMethod" id="bubble" th:value="Bubble">
+        <label for="bubble">Bubble</label>
+        <input type="radio" th:name="sortMethod" id="selection" th:value="Selection">
+        <label for="selection">Selection</label>
+<button id="Sortbutton">Go!</button>
+</form>
+
+<div th:switch="${sortMethod}" class="content">
+
+    <div th:case="'Insertion'" class="description">
+        <p>Best case: O(i) where i is the ith iteration</p>
+        <p>Worst case: O(n^2)</p>
+    </div>
+
+    <div th:case="'Selection'" class="description">
+        <p>Always O(n^2)</p>
+    </div>
+    <div th:case="'Bubble'" class="description">
+        <p>In the current implementation, always O(n^2)</p>
+    </div>
+
+    <div th:case="*" class="description">
+        <p>Click on the buttons. Click "Submit" to see the result..</p>
+    </div>
+</div>
+
+
+<h2><p th:text="'Elapsed Time: ' +${elapsedTime}+' nanoseconds'"/></h2>
+
+<h2><p th:text="'Input Array: '+${array}"></h2>
+<h2><p th:text="'Sorted Array: '+${sortedarray}"></h2>
+</div>
+
+
+</body>
+</html>
