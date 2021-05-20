@@ -3,9 +3,6 @@
 <head th:replace="fragments/headfile :: head">
     <title>FrogRiver</title>
     <style>
-        RiverFormButton {
-            color:black
-        }
     </style>
 </head>
 <body>
@@ -15,10 +12,10 @@
     <form id="RiverForm" action="/labs/Vihan/RiverRecursion" method="POST" >
         <label for="rocks">Number of rocks across the river</label>
         <input name="rocks" id="rocks" >
-        <button id="RiverFormButton">Go!</button>
+        <button id="RiverFormButton"><span></span>Calculate</button>
     </form>
 
-<h1><p th:text="'Result: '+${paths}"/></h1>
+<div class="heading"><p th:text="'Result: '+${paths}"/></div>
 <h2><p th:text="'Time: ' +${riverTime}+' nanoseconds'"/></h2>
 
 </div>

@@ -9,13 +9,12 @@ public class LinkedList{
 
     public LinkedList(int[] vals){
         this.head = new Node(vals[0]);
-        //System.out.println(head.value);
         this.nodes = new ArrayList<Node>();
         nodes.add(head);
 
         for (int i = 1; i < vals.length; i++){
-            int val = vals[i];
-            nodes.add(new Node(val));
+            int values = vals[i];
+            nodes.add(new Node(values));
         }
         for (int i = 0; i < nodes.size() - 1; i++){
             nodes.get(i).next = nodes.get(i+1);
@@ -29,7 +28,6 @@ public class LinkedList{
             vals[i] = nodes.get(i).value;
         }
         this.head = new Node(val);
-        //System.out.println(head.value);
         ArrayList<Node> nodes = new ArrayList<Node>();
         nodes.add(head);
 
@@ -49,15 +47,11 @@ public class LinkedList{
         nodes.get(nodes.size()-1).next = nodes.get(nodes.size());
     }
 
-    // create an object of Node class
-    // represent the head of the linked list
 
 
-    // static inner class
     static class Node {
         int value;
 
-        // connect each node to next node
         Node next;
 
         Node(int d) {
@@ -92,14 +86,8 @@ public class LinkedList{
 
     public static void main(String[] args) {
 
-        // create an object of LinkedList
         LinkedList linkedList = new LinkedList(new int[] {1,2,3});
-
-
         System.out.println(linkedList.traverse());
-
-        //System.out.println(linkedList.head.value);
-        //System.out.println(linkedList.head.next.value);
         linkedList.addHead(6);
         System.out.println(linkedList.traverse());
 

@@ -15,6 +15,200 @@ We are currently working on finding a domain-name.
 
 Click [here](https://docs.google.com/document/d/1_egHgpKx7FtzuqQB7QGcD1Rdo_Stov1bfvrn3Qzmf-4/edit?usp=sharing) to access the Booleans' Project Plan.
 
+## Links to Labs
+
+###### Aditya Surapaneni
+
+- [Recursion Lab](https://spring-boot-calculator.herokuapp.com/calculator)
+- [Inheritance Lab](https://inheritance-lab.herokuapp.com/inheritance)
+- [Sorts Lab](https://sort-lab.herokuapp.com/sort)
+- [LinkedList Lab](https://linked-list-lab.herokuapp.com/linked-list)
+
+------------------------------------------------------ Week 7 ------------------------------------------------------
+ 
+###### Praveen Natarajan Tickets
+
+Ticket 1: 5/10-5/15 Study for the CSA test through practice FRQs as well as through multiple choice tests 
+
+- Worked in a group with Pranav and Aryan to finish the MC on collge board
+- Did the official 2021 APCSA frq that was adminstered
+- Continued to watch the daily college board videos on the different topics that I had trouble with
+
+Ticket 2: 5/17-5/21 Experiment with Databases
+
+- Research the Canvas API and how to store the data in databases
+- Help with planning for the layout of the final site
+- Help Yasaswi with his integration of frontend and backend
+
+Ticket 3: 5/24-5/28 Integration
+
+- Work on integration between HTML and the Java code
+- Hopefully impliment the database into Java
+- Clean up the UI, and add more features if necessary
+
+###### Neil Sahai Tickets
+
+Ticket 1: 5/10-5/15 Study for the CSA test through practice FRQs as well as through multiple choice tests 
+
+- Worked by myself to complete the 2014 MC on collge board
+- Did the APCSA frq that was in my book
+- Refreshed on classes and iteration topic section and completed some MC in my prep book
+- Continued to watch the daily college board videos (AP Live Reviews) and Presentations in class
+
+Ticket 2: 5/17-5/21 PBL project
+
+- Begin to implement the Canvas API and how to store the data in databases
+- Assist with the build up of the website on the frontend
+- Help Aditya with his development and integration of both aspects of our website/notification system
+
+Ticket 3: 5/24-5/28 Integration
+
+- Work on integration between HTML and the Java code with Praveen
+- Add CSS styling and focus on the User experience (Customer Focused Deliverable)
+- Troubleshoot and make sure that everything is ready for N@TM (Login System/Adding Events/etc)
+
+
+###### Aditya Surapaneni
+
+Ticket 1 - 5/10 to 5/14
+
+NOTE: This ticket can also be found under the "Completed" section of our Scrum Board. To access our Scrum Board, click on "Projects" near the top of this repository.
+
+- Watch more AP Daily videos on topics I'm struggling with, such as Inheritance.
+- Attend the presentations during class in order to brush up on various concepts/topics.
+- Take notes on the presentations during class, especially on topics I'm struggling with.
+- Take the 2020 Practice Exam MCQ.
+- Complete part of an FRQ Practice Exam.
+
+Ticket 2 - 5/17 to 5/21
+
+NOTE: This ticket can also be found under the "Assigned" section of our Scrum Board. To access our Scrum Board, click on "Projects" near the top of this repository.
+
+- On the day before the AP Exam, brush up on a few concepts that were introduced during Trimester 1 & Trimester 2 to regain knowledge.
+- Start coding for the Final Project.
+- Set up the Controllers for the Calendar Application.
+- Start writing the code, in Java, for the input of information, such as Event Name, Event Description, Time, etc.
+- Write code, in HTML, so accommodate the code for the input of information.
+- Perhaps, if time is available, include CSS formatting to make the application appealing.
+
+Ticket 3 - 5/24 to 5/28
+
+NOTE: This ticket can also be found under the "Assigned" section of our Scrum Board. To access our Scrum Board, click on "Projects" near the top of this repository.
+
+- Continue coding the Final Project.
+- Write code, in Java, to allow user to edit/modify inputted information.
+- Write code, in Java, to allow user to delete events on a specific day.
+- Write code, in Java, for the notification system, if team figures out how to connect to e-mail, Canvas, etc.
+- Write the accommodating HTML code for the edit/delete/notification functions.
+- Update the CSS formatting to accommodate for the additions/revisions to the application.
+
+
+###### Yasaswi Singamneni Tickets
+
+Ticket 1: 5/10-5/15 Study for the AP CSA test by doing previous ap frq and mc questions 
+
+- Do the 2021 AP Computer Science FRQ test
+- Review explanations of previous FRQ questions given by college board.
+- Watch videos on youtube that breakdown past AP Exams
+
+Ticket 2: 5/17-5/21 Experiment with Databases
+
+- Determine and get familiar with a type of database (MongoDB/SQL/etc)
+- Start to write code to read from database
+- Integrate backend and front end code
+
+Ticket 3: 5/24-5/28 Integration
+
+- Work on integration between HTML and the Java code
+- Finish java code for reading and writing to and from databases
+- Help polish UI and other front end aspects
+
+
+## Self Grading/Deliverables/Evidence of Ticket Completion for Innovation Tickets
+
+###### Self Grading for Innovation Tickets- Neil Sahai.
+
+Grade: 5/5
+
+- I completed all of the requirements for this week:
+- I created three tickets for the next few weeks, which can be seen above
+- I completed mu first ticket of completing the [APCSA 2014 MC](https://drive.google.com/file/d/1CJQn0zw80lFeYM_Fjf85xBG6OvPN0QSg/view?usp=sharing)
+- I also took the 2020 MCQs, which can be seen here: [2020 MCQ Score](https://drive.google.com/file/d/1gGR9-2xUYsjS6UkuzAZfkhrI59wOFBtf/view?usp=sharing)
+- I put more research into the Iteration/Classes in Prep Book. (Difficult to get evidence for this)
+
+###### Self Grading for Innovation Tickets- Praveen N.
+
+Grade 5/5:
+- I completed all of the requirements for this week:
+- I created three tickets for the next few weeks, which can be seen above
+- I completed my first ticket of completing the [AP CSA 2021 FRQ](https://apcentral.collegeboard.org/pdf/ap21-frq-computer-science-a.pdf), for which my code can be seen here: [2021 CSA FRQ Praveen](https://drive.google.com/file/d/14Dj06AneYhhGL5-4CvBgHk_xAAz1eiRt/view?usp=sharing)
+- I also took all of the MCQs, which can be seen here: [2020 MCQ Score](https://drive.google.com/file/d/1NiGxwiJO9FgDnp6LJqynbkqhAcHm0n3t/view?usp=sharing)
+
+
+
+###### Self Grading for Innovation Tickets- Vihan J.
+
+Total Grade 5/5:
+
+Ticket Creation: 3/3
+- I created the three required tickets for the next few weeks, which can be seen here:
+-  [Ticket 1](https://github.com/AdityaS1426/BooleansCalendar/projects/1#card-61209305)
+-  [Ticket 2](https://github.com/AdityaS1426/BooleansCalendar/projects/1#card-61209313)
+-  [Ticket 3](https://github.com/AdityaS1426/BooleansCalendar/projects/1#card-61209290)
+
+
+Deliverables: 2/2
+- I completed Ticket 1 for this week, which is [here](https://github.com/AdityaS1426/BooleansCalendar/projects/1#card-61209313), which was to add CSS styling to my minilabs - evidence of code can be seen here: 
+   [CSS in headfile](https://github.com/AdityaS1426/BooleansCalendar/blob/b31f0c6bc04ff338e5e06172a3d8e2c43faf3d2b/src/main/resources/templates/fragments/headfile.html#L12) 
+   [See style](http://3.131.39.159/labs/Vihan/Sorts)
+- I also took the 2020 MCQ, which can be seen here: [2020 MCQ Score](https://docs.google.com/document/d/1t0h9ROqknCZx62hWPYlUHlt6i2jQs1rG9nfeLyuxTaY/edit?usp=sharing)
+
+###### Aditya Surapaneni
+
+Grade: 5/5
+
+- I met all of the requirements for this week.
+- I planned my work for the next few weeks by making three tickets, which can be found above.
+- I took the 2020 Practice Exam 1 MCQ. Click [here](https://drive.google.com/file/d/1S6JYZhcssTbZh31Eb8UUSUQxp5Ic2M5B/view?usp=sharing) to view a screenshot for proof.
+- I completed all of the expectation on Ticket 1, which is the ticket I made for myself for this week. The following bullet points show evidence of completion of items on my ticket.
+- I took notes on a Google Doc while attending all of the presentations during class. Click [here](https://docs.google.com/document/d/1oWoL06lqrSV-zr2Q94Y7YZ6DaZg07iPelTGrmkQ0jAU/edit?usp=sharing) to view the Google Doc with the notes.
+- I decided to take parts of two Practice Exam FRQs. I completed Problems 3 - 4 in the 2017 Practice Exam FRQ, as well as Problems 1 - 2 in the 2019 Practice Exam FRQ. Click [here](https://docs.google.com/document/d/1ZVSmdukn27dalHSudMiqhC5OTmrLiPhw3f9zTmMMrAY/edit?usp=sharing) to view the Google Doc, which I typed my answers into. Click on "2017 Practice Exam FRQ" in the table at the top to be taken to the part of the Google Doc with the code I wrote for the FRQ. I checked my answers with the solutions, and all of my code was correct.
+
+
+###### Yasaswi Singamneni
+
+Grade: 5/5
+
+- I did all the practice I scheduled for myself this week.
+- I delegated tasks for myself for the next 3 weeks.
+- I took the 2020 Practice Exam 1 FRQ. [Link to code](https://docs.google.com/document/d/1_vPD8f3NgUe2dZGe2sOZLoFjg0XjC9eHtYUtRa3wcZY/edit?usp=sharing)
+- I watched [this youtube video](https://www.youtube.com/watch?v=kE-H5oNSZ5w) to go over the 2021 FRQ Question 2
+
+
+------------------------------------------------------ Week 6 ------------------------------------------------------
+
+## Self Grading
+
+###### Aditya Surapaneni
+
+Grade: 5/5
+
+Justifications:
+
+AP Practice Exam
+
+- I met all of the requirements explained in the "Retrospective Study" assignment on Canvas.
+- Click [here](https://drive.google.com/file/d/19rcmd65K71hk8VVJk2WHeZGufw5XEZLn/view?usp=sharing) to view a screenshot of my score on the 2015 Practice Exam MCQ.
+- Click [here](https://docs.google.com/document/d/1ZVSmdukn27dalHSudMiqhC5OTmrLiPhw3f9zTmMMrAY/edit?usp=sharing) to view the test corrections I completed. Click "2015 Practice Exam MCQ" in the table at the top of the document to be taken to the section of the document which contains the test corrections for this specific MCQ exam.
+- In my document for test corrections, I also linked some useful resources that I will utilize in order to strengthen my understanding in area that I'm weak in.
+
+Learning Task
+
+- Neil & I created a Google Slides presentation on 2D Arrays. Click [here](https://docs.google.com/presentation/d/1YVJ38zgP6HnR-St6XkXGPTRP78IvQr_5haVbIhLJxkw/edit?usp=sharing) to access the presentation. We chose "2D Arrays" for our topic since we both felt like we needed to improve our understanding of the topic.
+- The link to the College Board material that inspired us can be found on Slide 11 of the presentation. It's the Live AP Review video that covers 2D Arrays.
+- To demonstrate our understanding of 2D Arrays, Neil & I created a Spring Boot Application. Links to the back-end code, front-end code, a demonstration video, as well as instructions on how to test the program can be found on Slide 12 of the presentation.
+- Click [here](https://github.com/AdityaS1426/2DArrayIslands) to access the repository for the program.
+
 ------------------------------------------------------ Week 5 ------------------------------------------------------
 
 ## Self Grading
@@ -64,6 +258,19 @@ Justifications:
 - Deployed the ability to add to the head of the linked list. [Here](https://github.com/AdityaS1426/BooleansCalendar/blob/master/src/main/resources/templates/labs/Neil/NeilLinkedList.html)
 - The Ticket I created for the LinkedList Lab can be found [here](https://github.com/AdityaS1426/BooleansCalendar/projects/1). It's at the very bottom of the "Completed" section of the Scrum Board.
 
+###### Praveen Natarajan
+
+Grade: 5/5
+
+Justifications:
+
+- I attempted all of the criteria outlined in the Canvas assignment
+- I built the LinkedLists Lab as can be seen here. Click [here](https://github.com/AdityaS1426/BooleansCalendar/blob/master/src/main/java/com/booleans/calendar/FRQ/Praveen/LinkedList.java) to see the LinkedList Lab.
+- I attempted to add to the head, middle, and back of the linked list.[Here](https://github.com/AdityaS1426/BooleansCalendar/blob/master/src/main/java/com/booleans/calendar/FRQ/Praveen/LinkedList.java)
+- Made the html code that connects to the main controller and runs the code. [Here](https://github.com/AdityaS1426/BooleansCalendar/blob/master/src/main/resources/templates/labs/Praveen/PraveenLinkedList.html)
+- The Ticket I created for the LinkedList Lab can be found [here](https://github.com/AdityaS1426/BooleansCalendar/projects/1). Scroll to the bottom of the Scrum Board
+
+
 ------------------------------------------------------ Week 4 ------------------------------------------------------
 
 ## Self Grading
@@ -84,7 +291,7 @@ Justifications:
 
 ###### Aditya Surapaneni
 
-[Link to Sorts Lab](https://insertion-sorts-lab.herokuapp.com/sort)
+[Link to Sorts Lab](https://sort-lab.herokuapp.com/sort)
 
 NOTE: The link above might take some time to load since the Sorts Lab is deployed on Heroku. Our team is working on deploying to AWS at the moment.
 
