@@ -2,14 +2,14 @@ package com.booleans.calendar;
 
 public class Date {
 
-    // DAYOFWEEK[1] gives MON, DAYOFWEEK[7] gives SUN...
+    // DAYOFWEEK [1] gives MON, DAYOFWEEK[2] gives TUE...DAYOFWEEK[7] gives SUN.
     public static final String[] DAYOFWEEK = { "SUN", "MON", "TUE", "WED", "THU", "FRI", "SAT", "SUN" };
 
     // MONTH[12] gives DEC, MONTH[1] gives JAN...
     public static final String[] MONTH = { "EMPTY", "JAN", "FEB", "MAR", "APR", "MAY", "JUN", "JUL", "AUG", "SEP",
             "OCT", "NOV", "DEC" };
 
-    private final static int REFYEAR = 1990;
+    private final static int REFYEAR = 1990; // The year "1990" is used as a reference for the other years.
 
     private int day;
     private int month;
@@ -43,12 +43,11 @@ public class Date {
     public static int calculateDowForJan1st(int year) {
         int numDays = 1;
 
-        // add one day to the year after leap year
+        // Adds one day to the year after the Leap Year.
         for (int i = REFYEAR + 1; i <= year; i++) {
             if (isLeapYear(i - 1))
                 numDays++;
             numDays++;
-            // System.out.println(i + " : " + DAYOFWEEK[numDays % 7]);
         }
 
         return numDays % 7;
@@ -62,30 +61,19 @@ public class Date {
         isHoliday = true;
     }
 
-    /**
-     * @return the day
-     */
     public int getDay() {
         return day;
     }
 
-    /**
-     * @return the month
-     */
     public int getMonth() {
         return month;
     }
 
-    /**
-     * @return the year
-     */
+
     public int getYear() {
         return year;
     }
 
-    /**
-     * @return the dow
-     */
     public int getDow() {
         return dow;
     }

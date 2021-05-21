@@ -15,8 +15,8 @@ import org.springframework.web.servlet.ModelAndView;
 public class CalendarController {
     HashMap<String, ArrayList<Date>> calendar = new HashMap<>();
 
-    // this map is used to store "JAN" -> 6 rows with 7 columns - empty spaces for
-    // days not of this month
+    // This map is used to store "JAN" -> 6 rows with 7 columns - empty spaces for
+    // the days not of this month.
     HashMap<String, Date[][]> dateValues = new HashMap<>();
 
     HashMap<String, String> holidayDates = new HashMap<>();
@@ -79,39 +79,30 @@ public class CalendarController {
     }
 
     private void setAllHolidays(int year) {
-        // new years day
+        // New Years Day
         calendar.get("JAN").get(0).setHoliday();
         holidayDates.put("NewYearsDay", "New Year's Day : " + calendar.get("JAN").get(0));
 
-        // mlk junior day - 3rd monday in jan
+        // Martin Luther King Jr. Day -- Third Monday in January
         holidayDates.put("MLKDay", "MLK Jr. Day : " + setAsHoliday(calendar.get("JAN"), "MON", 3));
 
-        // george washington day - 3rd monday in feb
+        // George Washington Day -- Third Monday in February
         holidayDates.put("PresidentsDay", "President's Day : " + setAsHoliday(calendar.get("FEB"), "MON", 3));
 
-        // // set easter
-        // Date[] dates = setEaster(year);
-        // if (dates[0] != null) {
-        // holidayDates.put("EasterSunday", "Easter Sunday : " + dates[0]);
-        // }
-        // if (dates[1] != null) {
-        // holidayDates.put("GoodFriday", "Good Friday : " + dates[1]);
-        // }
-
-        // memorial day - last monday in may
+        // Memorial Day -- Last Monday in May
         holidayDates.put("MemorialDay", "Memorial Day : " + setLastDayOccurrance(calendar.get("MAY"), "MON"));
 
-        // independence day
+        // Independence Day -- 4th of July
         calendar.get("JUL").get(3).setHoliday();
         holidayDates.put("IndependenceDay", "Independence Day : " + calendar.get("JUL").get(3));
 
-        // labor day - 1st monday in sep
+        // Labor Day -- First Monday in September
         holidayDates.put("LaborDay", "Labor Day : " + setAsHoliday(calendar.get("SEP"), "MON", 1));
 
-        // columbus day - 2nd monday in oct
+        // Columbus Day -- Second Monday in October
         holidayDates.put("ColumbusDay", "Columbus Day : " + setAsHoliday(calendar.get("OCT"), "MON", 2));
 
-        // veterans day on nove 11. If its a sunday, move to nov 12.
+        // Veterans Day -- 11th of Nov. If it's on a Sunday, it's moved to Nov. 12.
         if (calendar.get("NOV").get(10).getDow() == 0) {
             calendar.get("NOV").get(11).setHoliday();
             holidayDates.put("VeteransDay", "Veterans Day : " + calendar.get("NOV").get(11));
@@ -121,10 +112,10 @@ public class CalendarController {
 
         }
 
-        // thanksgiving
+        // Thanksgiving Day
         holidayDates.put("Thanksgiving", "Thanksgiving : " + setAsHoliday(calendar.get("NOV"), "THU", 4));
 
-        // christmas day
+        // Christmas Day
         calendar.get("DEC").get(24).setHoliday();
         holidayDates.put("Christmas", "Christmas : " + calendar.get("DEC").get(24));
     }
@@ -134,7 +125,7 @@ public class CalendarController {
         ArrayList<Date> mar = calendar.get("MAR");
         Date[] dates = new Date[2];
 
-        // full moon chart constraints
+        // Constraints for the Full Moon Chart
         if (2014 <= year && year <= 2031) {
             Date fullMoon = null;
 
@@ -218,14 +209,14 @@ public class CalendarController {
                 daysToSunday++;
             }
 
-            // Set easter sunday as holiday
+            // Sets Easter Sunday as a holiday.
             if (fullMoon.getDay() + daysToSunday > 31) {
-                // Easter sunday falls in april
-                // So set first sunday in april as holiday
+                // Easter Sunday falls in April.
+                // So, set the first Sunday in April as a holiday.
                 dates[0] = setAsHoliday(apr, "SUN", 1);
-            } else {
+            } else
+                {
                 if (fullMoon.getMonth() == 3) {
-                    // use the index (1 less than actual date) and set it as holiday
                     mar.get((fullMoon.getDay() + daysToSunday) - 1).setHoliday();
                     dates[0] = mar.get((fullMoon.getDay() + daysToSunday) - 1);
                 } else {
@@ -234,10 +225,10 @@ public class CalendarController {
                 }
             }
 
-            // Set good friday as holiday
+            // Set Good Friday as a holiday.
             if (fullMoon.getDay() - daysToFriday < 1) {
-                // Good friday falls in march
-                // So set last friday in march as holiday
+                // Good friday falls in March.
+                // So, set the last Friday in March as a holiday.
                 dates[1] = setLastDayOccurrance(mar, "FRI");
             } else {
                 if (fullMoon.getMonth() == 3) {
@@ -248,19 +239,11 @@ public class CalendarController {
                     dates[1] = apr.get((fullMoon.getDay() - daysToFriday) - 1);
                 }
             }
-        } // end if (2014 <= year && year <= 2031)
+        }
 
         return dates;
     }
 
-    /**
-     * Returns the date of nth occurrance of a day of the week in a month
-     *
-     * @param month
-     * @param dayOfWeek
-     * @param nthOccurrance
-     * @return
-     */
     private Date setAsHoliday(ArrayList<Date> month, String dayOfWeek, int nthOccurrance) {
         Date holiday = null;
         int occurrances = 0;
@@ -278,17 +261,10 @@ public class CalendarController {
         return holiday;
     }
 
-    /**
-     * Sets last occurrance of specified day in a month as holiday
-     *
-     * @param month
-     * @param dayOfWeek
-     */
     private Date setLastDayOccurrance(ArrayList<Date> month, String dayOfWeek) {
-        // loop will run backward from end of month
-        // and will set as holiday the first occurrance of the specified day
-        // This deals with months which may have 4 or 5 occurrances of a day
-        // either of which may be the last occurrance.
+        // This loop will run backwards from the end of a month.
+        // This deals with months which may have 4 or 5 occurrences of a day,
+        // either of which may be the last occurrence.
 
         Date holiday = null;
 
@@ -334,22 +310,13 @@ public class CalendarController {
         buildMonth(dec1st, 31, 12);
     }
 
-    /**
-     * Builds array list of date objects from parameters and adds it to the hashmap
-     * by month name string.
-     *
-     * @param day1st    Date representing 1st day of month
-     * @param monthDays Total number of days in month
-     * @param monthNum  Month value (1, 2... 12)
-     */
     private void buildMonth(Date day1st, int monthDays, int monthNum) {
         ArrayList<Date> month = new ArrayList<>();
         month.add(day1st);
 
-        // i represents day
         for (int i = 2; i <= monthDays; i++) {
             Date date = new Date(monthNum, i, day1st.getYear());
-            int dow = (day1st.getDow() + (i - 1)) % 7; // dow = (1st day + elapsed days) % 7
+            int dow = (day1st.getDow() + (i - 1)) % 7;
             date.setDow(dow);
             month.add(date);
         }
