@@ -151,10 +151,14 @@ Grade 5/5:
 Total Grade 5/5:
 
 Ticket Creation: 3/3
-- I created the three required tickets for the next few weeks, which can be seen [here](https://github.com/AdityaS1426/BooleansCalendar/projects/3?add_cards_query=is%3Aopen)
+- I created the three required tickets for the next few weeks, which can be seen here:
+-  [Ticket 1](https://github.com/AdityaS1426/BooleansCalendar/projects/1#card-61209305)
+-  [Ticket 2](https://github.com/AdityaS1426/BooleansCalendar/projects/1#card-61209313)
+-  [Ticket 3](https://github.com/AdityaS1426/BooleansCalendar/projects/1#card-61209290)
+
 
 Deliverables: 2/2
-- I completed Ticket 1 for this week, which was to add CSS styling to my minilabs - evidence of code can be seen here: 
+- I completed Ticket 1 for this week, which is [here](https://github.com/AdityaS1426/BooleansCalendar/projects/1#card-61209313), which was to add CSS styling to my minilabs - evidence of code can be seen here: 
    [CSS in headfile](https://github.com/AdityaS1426/BooleansCalendar/blob/b31f0c6bc04ff338e5e06172a3d8e2c43faf3d2b/src/main/resources/templates/fragments/headfile.html#L12) 
    [See style](http://3.131.39.159/labs/Vihan/Sorts)
 - I also took the 2020 MCQ, which can be seen here: [2020 MCQ Score](https://docs.google.com/document/d/1t0h9ROqknCZx62hWPYlUHlt6i2jQs1rG9nfeLyuxTaY/edit?usp=sharing)

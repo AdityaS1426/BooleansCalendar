@@ -23,18 +23,9 @@ import java.util.logging.SimpleFormatter;
 public class CalendarApplication extends SpringBootServletInitializer {
 
     public static void main(String[] args) {
-
-
-
-
         //Starting up Spring Application
         SpringApplication.run(CalendarApplication.class, args);
-
-
-
     }
-
-
 }
 /*
 @Configuration
