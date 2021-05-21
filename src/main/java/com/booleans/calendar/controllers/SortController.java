@@ -2,12 +2,12 @@ package com.booleans.calendar.controllers;
 
 import com.booleans.calendar.FRQ.Vihan.Inheritance.Computer;
 import com.booleans.calendar.FRQ.Vihan.Sorting.Sorts;
+import com.booleans.calendar.FRQ.Neil.Sorting.Sort;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.ui.Model;
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.List;
 
 
 @Controller
@@ -76,7 +76,7 @@ public class SortController {
     public String NeilSort(@RequestParam(value = "array", required = false, defaultValue = "default") String array, @RequestParam(value="arrayType", required = false, defaultValue="Integer") String arrayType, @RequestParam(value="sortMethod", required = false, defaultValue="Bubble") String sortMethod,Model model) {
 
         Comparable[] test = new Comparable[]{};
-        Sorts sort = new Sorts();
+        Sort sort;
         if(arrayType.compareTo("String")==0) {
             test = new String[]{""};
 
@@ -96,7 +96,7 @@ public class SortController {
             test = new Computer[]{new Computer()};
 
         }
-        sort = new Sorts(new ArrayList<Comparable>(Arrays.asList(test)),sortMethod);
+        sort = new Sort(new ArrayList<Comparable>(Arrays.asList(test)),sortMethod);
         model.addAttribute("elapsedTime", String.valueOf(sort.elapsedTime));
         model.addAttribute("array",sort.array.toString());
         model.addAttribute("sortedarray",sort.sortedarray.toString());

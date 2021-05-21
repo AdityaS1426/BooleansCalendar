@@ -1,25 +1,23 @@
 <!DOCTYPE HTML>
 <html xmlns:th="http://www.w3.org/1999/xhtml">
-<head>
+<head th:replace="fragments/headfile :: head">
     <title>ListComparison</title>
-    <style>
 
-    </style>
-    <script defer th:src="@{/js/ListComparison.js}" type="text/javascript"></script>
+
+
 
 </head>
 <body>
+
+
 <p>A linked list is a data structure which is known for the ease of inserting and deleting elements compared to other data structures</p>
 <p>We will compare the performance of the linked list to that of the arraylist, which is the more commmon mutable list object in java</p>
 
-
-<h1>Create List</h1>
-
-
+<!--Create List Section-->
+<div class="heading">Create List</div>
 <form id="ListCreation">
 
-    <div class ="">
-        <p>Choose the element type for the list</p>
+    <div class ="subheading">Choose the element type for the list</div>
         <input type="radio" th:name="listElementType" id="String" th:value="String">
         <label for="String">String</label>
 
@@ -29,66 +27,69 @@
         <input type="radio" th:name="listElementType" id="Computer/Laptop" th:value="Computer">
         <label for="Computer/Laptop">Computer/Laptop</label>
     </div>
-    <div>
-        <p>Choose initial length of list</p>
+    <div class="subheading">Choose initial length of list</div>
         <label for="ListLength">Length</label>
         <input type ="number" min="0" th:name="listlength" id="ListLength">
-        <button class="btn listcreationsubmit"id="ListCreationSubmitButton">Submit</button>
-
-
-
+        <button id="ListCreationSubmitButton"><span></span>Create</button>
 
     </div>
 </form>
 
 <div id="CreateListSection" style="display: none">
-    <button id="NewListCreationButton">Create New List</button>
+    <button id="NewListCreationButton"><span></span>Create New List</button>
 </div>
 
 
-
-<script>
-</script>
+<!--Insert,Sort,Delete Section-->
 <form id="ListModifier">
-    <h1>Insert,Delete, or Sort</h1>
-    <input type="radio" th:name="listOperation" id="Add" th:value="Add">
-    <label for="Add">Add</label>
+    <div class="heading">Modify List</div>
+    <input type="radio" th:name="listOperation" id="Insert" th:value="Insert" checked="true">
+    <label for="Insert">Insert</label>
     <input type="radio" th:name="listOperation" id="Delete" th:value="Delete">
     <label for="Delete">Delete</label>
     <input type="radio" th:name="listOperation" id="Sort" th:value="Sort">
     <label for="Sort">Sort</label>
 
 
-    <div id="AddSection">
-        <input th:name="dataToInsert" id="AddSection-Add">
-        <label for="AddSection-Add">Element</label>
-        <input type="number" th:name="indexToInsert" id="AddSection-Index">
-        <label for="AddSection-Index">Index</label>
-        <button id="AddSection-Button">Insert</button>
+    <div id="InsertSection">
+       <div style="display:block">
+            <div style="display:inline-block;">
+                <label for="InsertSection-Insert">Element</label>
+                <input th:name="dataToInsert" id="InsertSection-Insert" >
+           </div>
+           <div style="display:inline-block;">
+                <label for="InsertSection-Index" >Index</label>
+                <input type="number" th:name="indexToInsert" id="InsertSection-Index" >
+            </div>
+       </div>
     </div>
 
-    <div id="DeleteSection">
+    <div id="DeleteSection" style="display: none;">
         <input type th:name="IndexToDelete" id="DeleteSection-Index">
-        <label for="DeleteSection-Index">Index</label>
-        <button id="DeleteSection-Button">Insert</button>
-
+        <label for="DeleteSection-Index">Delete</label>
     </div>
 
-    <div id="SortSection">
+    <div id="SortSection" style="display: none;">
+
         <input type="radio" th:name="sortMethod" th:value="Selection" id="SortSection-Selection">
         <label for="SortSection-Selection">Selection</label>
         <input type="radio" th:name="sortMethod" th:value="Insertion" id="SortSection-Insertion">
-        <label for="SortSection-Insertion">Selection</label>
+        <label for="SortSection-Insertion">Insertion</label>
         <input type="radio" th:name="sortMethod" th:value="Bubble" id="SortSection-Bubble">
-        <label for="SortSection-Bubble">Selection</label>
-        <button id="SortSection-Button">Insert</button>
-
+        <label for="SortSection-Bubble">Bubble</label>
     </div>
+    <button id="ListModificationButton" style="display:inline-block;"><span></span>Insert</button>
 </form>
 
-<h1>Operation Times</h1>
-<p th:text="'ArrayList: ' + ${arrayListTime}">
-<p th:text="'LinkedList: ' + ${linkedListTime}">
-    </div>
+
+<!--Display Results-->
+<div class="heading">Operation Times</div>
+<p th:text="'ArrayList: ' + ${arrayListTime}"></p>
+<p th:text="'LinkedList: ' + ${linkedListTime}"></p>
+
+
+
+
+<script th:src="@{/js/ListComparison.js}" type="text/javascript"></script>
 </body>
 </html>

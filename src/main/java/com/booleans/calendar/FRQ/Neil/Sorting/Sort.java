@@ -3,19 +3,19 @@ package com.booleans.calendar.FRQ.Neil.Sorting;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-public class Sorts {
+public class Sort {
     long start;
     public long elapsedTime;
     public boolean arraysMatch = false;
     public ArrayList<Comparable> array;
     public ArrayList<Comparable> sortedarray;
 
-    public Sorts() {
+    public Sort() {
         this(new ArrayList<Comparable>(Arrays.asList(75, 67, 596, 777, 913021, 1, 4507, 81236)),"Integer");
 
 
     }
-    public Sorts(ArrayList<Comparable> arr, String sortMethod) {
+    public Sort(ArrayList<Comparable> arr, String sortMethod) {
         array = (ArrayList<Comparable>) arr.clone();
         if (sortMethod.compareTo("Insertion")==0) {
             start = System.nanoTime();
