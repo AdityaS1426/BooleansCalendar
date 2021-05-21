@@ -1,5 +1,5 @@
 package com.booleans.calendar;
-
+//Date Function
 public class Date {
 
     // DAYOFWEEK [1] gives MON, DAYOFWEEK[2] gives TUE...DAYOFWEEK[7] gives SUN.
