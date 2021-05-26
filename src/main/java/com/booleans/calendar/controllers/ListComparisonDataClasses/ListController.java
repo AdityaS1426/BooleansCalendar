@@ -21,7 +21,7 @@ public class ListController {
 
     @GetMapping("/labs/Vihan/ListComparison")
     public String listComparison() {
-        return "/labs/Vihan/ListComparison";
+        return "/labs/Vihan/ListComparison.html";
     }
 
 

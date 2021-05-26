@@ -68,7 +68,7 @@ public class ListEntity  {
 
     @Override
     public String toString() {
-        return "List: "+ list.toString() + "/nLength: "+length;
+        return "List: "+ list.toString() + "\nLength: "+length;
     }
 
     @Override

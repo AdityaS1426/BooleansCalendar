@@ -12,19 +12,17 @@ if (document.readyState === "complete" || document.readyState === "loaded") {
 
 function domReady() {
 
+
+
     console.log("domready");
 
-
-
+    const domain = window.location.hostname;
+    const page = '/labs/Vihan/ListComparison/';
+    console.log(domain+page);
 
 
 
     //Create List
-    {   var
-
-
-
-    }
 
 
 
@@ -75,11 +73,37 @@ function domReady() {
 
     }
 
-
-
-
     //creating list elements
     {
+    const listCreationButton = document.querySelector('#ListCreationSubmitButton');
+    listCreationButton.addEventListener('click',function (event) {
+        event.preventDefault();
+        console.log("123F");
+        //console.log(constructAjaxListCreation());
+
+
+
+        const params = {
+            headers: {
+                "content-type":"application/json; charset=UTF-8"
+            }
+        }
+
+        const url = page+"test";
+        console.log(url);
+        fetch(url, params)
+        .then(response => response.json())
+        .then(json => console.log(json))
+        .catch(error => {
+
+            if (error) {
+                console.log(error);
+            }
+
+        });
+
+    });
+
     const constructAjaxListCreation = function () {
         var data = {
         type: 'Integer',
@@ -118,14 +142,25 @@ function domReady() {
 
 
         }
-    const listCreationButton = document.querySelector('#ListCreationSubmitButton');
-    listCreationButton.addEventListener('click',function (event) {
+
+
+    }
+
+
+    //modifying list elements
+    {
+    const listModificationButton = document.getElementById("ListModificationButton");
+    if (listModificationButton) {
+        console.log("modificationbutton found");
+    }
+
+    listModificationButton.addEventListener('click', function (event) {
         event.preventDefault();
-        console.log("meme");
-        //console.log(constructAjaxListCreation());
+
+        console.log("meme1");
 
 
-    });
+    })
     }
 
 

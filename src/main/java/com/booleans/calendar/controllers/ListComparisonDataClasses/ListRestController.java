@@ -26,7 +26,11 @@ public class ListRestController {
         this.repository = repository;
     }
 
-
+    @GetMapping("/labs/Vihan/ListComparison/test")
+    public ListEntity getList() {
+        return repository.findById(1L)
+                .orElseThrow(() -> new ListEntityException(1L));
+    }
 
 
     @GetMapping("/labs/Vihan/ListComparison/{id}")
