@@ -24,6 +24,42 @@ Click [here](https://docs.google.com/document/d/1_egHgpKx7FtzuqQB7QGcD1Rdo_Stov1
 - Calendar Generator
 - Task Manager
 
+## Deliverable/Progress/Tickets for Week of 06/02 to 06/08
+
+###### Aditya Surapaneni
+
+**Review Ticket**
+
+This week, I strongly focused on the Task Manager application of our Final Project. I completed work on both back-end (Java & SQL), as well as front-end (HTML, CSS, JS). Initially, the Task Manager application was working properly, but after I made some changes to improve the application, it's not working properly. Notably, the compiler isn't connecting the application with the SQL H2 Database. However, I was able to make a demonstration video before the application stopped working, so that's my main tangible for this week.
+
+Link to Website
+
+- Click [HERE](https://booleans-final-webapp.herokuapp.com/) to view the website.
+
+Link to Demonstration Video
+
+- Click [HERE](https://drive.google.com/file/d/1rxTxYQyPzfnBiotH_6NXh3-tJcouQ0mi/view?usp=sharing) to watch the Demonstration Video for the Task Manager application portion of our website.
+
+Links to Code
+
+- [x] Write code, in Java, to make a security configuration for the application. Thus, it will stay secure. Click [HERE](https://github.com/AdityaS1426/TaskManager/blob/master/src/main/java/com/booleans/taskmanagement/configuration/SecurityConfiguration.java) to access the code for this feature.
+- [x] Write code, in Java, to create a Controller for the "Assign Tasks" feature of the application. Click [HERE](https://github.com/AdityaS1426/TaskManager/blob/master/src/main/java/com/booleans/taskmanagement/controller/AssignmentController.java) to view the code for this feature.
+- [x] Write code, in Java, to create a Controller for the "Task List" portion of the application. Click [HERE](https://github.com/AdityaS1426/TaskManager/blob/master/src/main/java/com/booleans/taskmanagement/controller/TaskController.java) to view the code for this feature.
+- [x] Write code, in Java, to create a Controller for the "User List" portion of the application. Click [HERE](https://github.com/AdityaS1426/TaskManager/blob/master/src/main/java/com/booleans/taskmanagement/controller/UserController.java) to view the code for this feature.
+- [x] Create a Java class containing the default data for the application. Click [HERE](https://github.com/AdityaS1426/TaskManager/blob/master/src/main/java/com/booleans/taskmanagement/dataloader/InitialDataLoader.java) to view the code.
+- [x] Implement CSS formatting for the application. Click [HERE](https://github.com/AdityaS1426/TaskManager/blob/master/src/main/resources/static/css/mystyle.css) to view the code, in CSS.
+- [x] Create a JS file in order to formulate Widget Behavior/Ajax Controller Functionality to the application. Click [HERE](https://github.com/AdityaS1426/TaskManager/blob/master/src/main/resources/static/js/main.js) to view the code, in JS.
+- [x] Write code, in HTML, for various forms on the application, such as the [Assignment Page](https://github.com/AdityaS1426/TaskManager/blob/master/src/main/resources/templates/forms/assignment.html), the [Task Editor Page](https://github.com/AdityaS1426/TaskManager/blob/master/src/main/resources/templates/forms/task-edit.html), & the [Create New Task Page](https://github.com/AdityaS1426/TaskManager/blob/master/src/main/resources/templates/forms/task-new.html).
+
+**In Progress Ticket**
+
+For the coming week, my main focus will be to fix the issues with the Task Manager Application, add content to the "About" page of the website, & make finishing touches before deploying for the final time.
+
+- [ ] Fix issues with the Task Manager application. (Figure out why the compiler isn't connecting the code with the SQL H2 Database.)
+- [ ] Add content to the "About" page of the website. (This page will include information about the members in our group, the various materials we used for our project, etc.
+- [ ] Add a background image to the Home page of our website.
+- [ ] Make finishing touches to the website. (Fix any existing errors, check if the website is deployed correctly, etc.)
+
 ## Deliverables for Previous Weeks Below This Point
 
 ------------------------------------------------------ Week 7 ------------------------------------------------------
