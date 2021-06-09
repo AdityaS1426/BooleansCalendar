@@ -16,7 +16,7 @@ We are currently working on finding a domain-name.
 
 Click [here](https://docs.google.com/document/d/1_egHgpKx7FtzuqQB7QGcD1Rdo_Stov1bfvrn3Qzmf-4/edit?usp=sharing) to access the Booleans' Project Plan.
 
-#Deliverables for Previous Weeks Below This Point
+##Deliverables for Previous Weeks Below This Point
 
 ------------------------------------------------------ Week 7 ------------------------------------------------------
  
