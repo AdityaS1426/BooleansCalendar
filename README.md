@@ -1,20 +1,28 @@
 # BooleansCalendar
 
-## Summary
+## Project Idea
 
-With this Calendar Application, users can schedule events by designating a specific date to be notified of the event, writing a description of the event, & setting a specific time to be notified of the event. The user will be notified of the events via their smartphone or by e-mail. We may add functionality by linking it to Canvas.
+As high school students with constant work, it's no surprise we struggle to find the tools we need to succeed or stay organized on a daily basis. So, the Booleans decided to combat such an issue through the creation of a website. This website aims to help students go through their daily lives with ease. Students will be able to access a calculator, view a calendar, generate tasks to keep track of their work, etc.
 
 ## Website
 
 Click [HERE](https://booleans-final-webapp.herokuapp.com/) to access the website for the Final Project.
 Click [HERE](https://booleans-website.herokuapp.com/) to access the FRQ website.
-Or go to this ip address: 3.131.39.159 -
 We are currently working on finding a domain-name.
 ![Home Page Screenshot](https://user-images.githubusercontent.com/71394490/112705180-d5cb3f80-8e5a-11eb-9c53-c50d1347e9b0.png)
 
 ## Project Plan
 
 Click [here](https://docs.google.com/document/d/1_egHgpKx7FtzuqQB7QGcD1Rdo_Stov1bfvrn3Qzmf-4/edit?usp=sharing) to access the Booleans' Project Plan.
+
+## Features of the Website
+
+- Home Page
+- About Page
+- Mini Labs
+- Calculator
+- Calendar Generator
+- Task Manager
 
 ## Deliverables for Previous Weeks Below This Point
 
