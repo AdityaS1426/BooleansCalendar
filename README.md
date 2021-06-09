@@ -30,7 +30,7 @@ Click [here](https://docs.google.com/document/d/1_egHgpKx7FtzuqQB7QGcD1Rdo_Stov1
 
 ## Deliverable/Progress/Tickets for Week of 06/02 to 06/08
 
-###### Aditya Surapaneni
+
 
 **Review Ticket**
 
