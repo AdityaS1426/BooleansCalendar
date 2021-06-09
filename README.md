@@ -9,7 +9,7 @@ As high school students with constant work, it's no surprise we struggle to find
 Click [HERE](https://booleans-final-webapp.herokuapp.com/) to access the website for the Final Project.
 Click [HERE](https://booleans-website.herokuapp.com/) to access the FRQ website.
 We are currently working on finding a domain-name.
-![Home Page Screenshot](https://user-images.githubusercontent.com/71394490/112705180-d5cb3f80-8e5a-11eb-9c53-c50d1347e9b0.png)
+![Home Page Screenshot](https://user-images.githubusercontent.com/71394490/121297823-bebbbb80-c8a7-11eb-9d5e-7ccceced02fd.png)
 
 ## Project Plan
 
