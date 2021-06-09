@@ -24,6 +24,10 @@ Click [here](https://docs.google.com/document/d/1_egHgpKx7FtzuqQB7QGcD1Rdo_Stov1
 - Calendar Generator
 - Task Manager
 
+## Task Manager Demonstration Video
+
+- Click [HERE](https://drive.google.com/file/d/1rxTxYQyPzfnBiotH_6NXh3-tJcouQ0mi/view?usp=sharing) to view the demonstration video for our Task Manager applicaiton.
+
 ## Deliverable/Progress/Tickets for Week of 06/02 to 06/08
 
 ###### Aditya Surapaneni
