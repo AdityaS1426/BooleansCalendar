@@ -4,7 +4,7 @@
 
 - Click [HERE](https://booleans-final-webapp.herokuapp.com/) to access the website for the Final Project.
 - Click [HERE](https://booleans-website.herokuapp.com/) to access the website for the Mini Labs. (This website is also linked within the Final Project website.)
-![Home Page Screenshot](![image](https://user-images.githubusercontent.com/71394490/121955760-2e510100-cd15-11eb-959e-a8a4ef93598f.png))
+![image](https://user-images.githubusercontent.com/71394490/121955760-2e510100-cd15-11eb-959e-a8a4ef93598f.png)
 
 ## Project Plan
 
