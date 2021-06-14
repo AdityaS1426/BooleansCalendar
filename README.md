@@ -18,8 +18,16 @@ As high school students with constant work, it's no surprise we struggle to find
 
 ###### User Interactions for Task Manager
 
-- The user has the option to choose which type of user to log in as. (Admin or User)
+- The user has the option to choose which type of user to log in as. (Admin or Regular User)
 ![image](https://user-images.githubusercontent.com/71394490/121964863-05366d80-cd21-11eb-94dd-d6391438b917.png)
+- As an admin, the use can make certain decisions, like viewing a list of tasks, viewing a list of users, asigning a task, creating a new task, etc.
+![image](https://user-images.githubusercontent.com/71394490/121965159-78d87a80-cd21-11eb-857a-018d9b2440aa.png)
+- As a regular user, there are less decisions possible. Thes include viewing the list of tasks, viewing a list of users, creating a new task, etc.
+![image](https://user-images.githubusercontent.com/71394490/121965488-f1d7d200-cd21-11eb-9fad-6139053a8d68.png)
+- The user can click on Check Boxes to determine the completion of a task. If logged in as a regular user, the user can only check the boxes pertaining to their assigned tasks. (Since I'm logged in as Ann, a regular user, I can only check the box that corresponds with the task I'm responsible for.)
+![image](https://user-images.githubusercontent.com/71394490/121965750-5dba3a80-cd22-11eb-934e-b859203566e3.png)
+- However, the admin can check boxes for any task, as seen below.
+![image](https://user-images.githubusercontent.com/71394490/121965843-86423480-cd22-11eb-8a14-e87ad6528a6f.png)
 
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
