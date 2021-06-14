@@ -6,8 +6,8 @@ As high school students with constant work, it's no surprise we struggle to find
 
 ## Website
 
-Click [HERE](https://booleans-final-webapp.herokuapp.com/) to access the website for the Final Project.
-Click [HERE](https://booleans-website.herokuapp.com/) to access the website for the Mini Labs. (This website is also linked within the Final Project website.)
+- Click [HERE](https://booleans-final-webapp.herokuapp.com/) to access the website for the Final Project.
+- Click [HERE](https://booleans-website.herokuapp.com/) to access the website for the Mini Labs. (This website is also linked within the Final Project website.)
 ![Home Page Screenshot](https://user-images.githubusercontent.com/71394490/121297823-bebbbb80-c8a7-11eb-9d5e-7ccceced02fd.png)
 
 ## Project Plan
