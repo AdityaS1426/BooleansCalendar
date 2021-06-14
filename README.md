@@ -10,23 +10,16 @@
 
 Click [here](https://docs.google.com/document/d/1_egHgpKx7FtzuqQB7QGcD1Rdo_Stov1bfvrn3Qzmf-4/edit?usp=sharing) to access the Booleans' Project Plan.
 
-## Features of the Website
-
-- Home Page
-- About Page
-- Mini Labs
-- Calculator
-- Calendar Generator
-- Task Manager Application
-
-## Section 1 - Theme/Interaction/Technicals
-
-###### Theme
+## Theme
 
 As high school students with constant work, it's no surprise we struggle to find the tools we need to succeed or stay organized on a daily basis. So, our team, the Booleans, decided to combat such an issue through the creation of a website. This website aims to help students go through their daily lives with ease. Students will be able to access a calculator, view a calendar, generate tasks to keep track of their work, etc.
 
-###### Key Interactions
+## Key User Interactions
 
+###### User Interactions for Task Manager
+
+- The user has the option to choose which type of user to log in as. (Admin or User)
+![image](https://user-images.githubusercontent.com/71394490/121964863-05366d80-cd21-11eb-94dd-d6391438b917.png)
 
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
