@@ -1,9 +1,5 @@
 # Booleans - Guide for Final Project
 
-## Project Idea
-
-As high school students with constant work, it's no surprise we struggle to find the tools we need to succeed or stay organized on a daily basis. So, our team, the Booleans, decided to combat such an issue through the creation of a website. This website aims to help students go through their daily lives with ease. Students will be able to access a calculator, view a calendar, generate tasks to keep track of their work, etc.
-
 ## Website
 
 - Click [HERE](https://booleans-final-webapp.herokuapp.com/) to access the website for the Final Project.
@@ -22,6 +18,16 @@ Click [here](https://docs.google.com/document/d/1_egHgpKx7FtzuqQB7QGcD1Rdo_Stov1
 - Calculator
 - Calendar Generator
 - Task Manager Application
+
+## Section 1 - Theme/Interaction/Technicals
+
+###### Theme
+
+As high school students with constant work, it's no surprise we struggle to find the tools we need to succeed or stay organized on a daily basis. So, our team, the Booleans, decided to combat such an issue through the creation of a website. This website aims to help students go through their daily lives with ease. Students will be able to access a calculator, view a calendar, generate tasks to keep track of their work, etc.
+
+###### Key Interactions
+
+
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
