@@ -1,14 +1,13 @@
-# BooleansCalendar
+# Booleans - Guide for Final Project
 
 ## Project Idea
 
-As high school students with constant work, it's no surprise we struggle to find the tools we need to succeed or stay organized on a daily basis. So, the Booleans decided to combat such an issue through the creation of a website. This website aims to help students go through their daily lives with ease. Students will be able to access a calculator, view a calendar, generate tasks to keep track of their work, etc.
+As high school students with constant work, it's no surprise we struggle to find the tools we need to succeed or stay organized on a daily basis. So, our team, the Booleans, decided to combat such an issue through the creation of a website. This website aims to help students go through their daily lives with ease. Students will be able to access a calculator, view a calendar, generate tasks to keep track of their work, etc.
 
 ## Website
 
 Click [HERE](https://booleans-final-webapp.herokuapp.com/) to access the website for the Final Project.
-Click [HERE](https://booleans-website.herokuapp.com/) to access the FRQ website.
-We are currently working on finding a domain-name.
+Click [HERE](https://booleans-website.herokuapp.com/) to access the website for the Mini Labs. (This website is also linked within the Final Project website.)
 ![Home Page Screenshot](https://user-images.githubusercontent.com/71394490/121297823-bebbbb80-c8a7-11eb-9d5e-7ccceced02fd.png)
 
 ## Project Plan
@@ -22,14 +21,15 @@ Click [here](https://docs.google.com/document/d/1_egHgpKx7FtzuqQB7QGcD1Rdo_Stov1
 - Mini Labs
 - Calculator
 - Calendar Generator
-- Task Manager
+- Task Manager Application
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Task Manager Demonstration Video
 
 - Click [HERE](https://drive.google.com/file/d/1rxTxYQyPzfnBiotH_6NXh3-tJcouQ0mi/view?usp=sharing) to view the demonstration video for our Task Manager applicaiton.
 
 ## Deliverable/Progress/Tickets for Week of 06/02 to 06/08
-
 
 
 **Review Ticket**
