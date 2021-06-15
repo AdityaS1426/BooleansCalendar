@@ -12,7 +12,8 @@ Click [here](https://docs.google.com/document/d/1_egHgpKx7FtzuqQB7QGcD1Rdo_Stov1
 
 ## Important Videos
 
-- [Task Manager Application Demo Video](https://drive.google.com/file/d/1rxTxYQyPzfnBiotH_6NXh3-tJcouQ0mi/view?usp=sharing)
+- [Video - How It's Made](https://drive.google.com/file/d/1ptYBPoI1IACoIhgClX-U3eWJB8clpEs2/view?usp=sharing)
+- [Video - Task Manager Application Demonstration](https://drive.google.com/file/d/1rxTxYQyPzfnBiotH_6NXh3-tJcouQ0mi/view?usp=sharing)
 
 ## Theme
 
