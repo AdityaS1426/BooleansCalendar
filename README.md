@@ -31,6 +31,19 @@ As high school students with constant work, it's no surprise we struggle to find
 - The user can enter a task of their choosing into the fields in the "Create a New Task" option. They can enter a name, enter a description, set a date, etc.
 ![image](https://user-images.githubusercontent.com/71394490/121974448-3bc9b380-cd34-11eb-800b-19d796c019b1.png)
 
+###### User Interactions for Calculator
+
+- The user can choose to input any number into the fields provided.
+- The user has various options to perform calculations, including Addition, Subtraction, Multiplication, Division, Fibonacci, Factorial, Square Root, & Power.
+- The user has the option to Clear the fields.
+![image](https://user-images.githubusercontent.com/71394490/121974774-fce82d80-cd34-11eb-8519-f8c7f2047e2d.png)
+
+###### User Interactions for Calendar Generator
+
+- The user can choose any year to input into the text field at the top. A corresponding calendar will be generated.
+![image](https://user-images.githubusercontent.com/71394490/121974917-551f2f80-cd35-11eb-88c0-cf1d78d57b65.png)
+- The date/day of the week of important holidays occurring in the user-inputted year will also be generated above the calendar.
+![image](https://user-images.githubusercontent.com/71394490/121975003-85ff6480-cd35-11eb-8194-1f44c0c13232.png)
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
