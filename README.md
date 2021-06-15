@@ -10,6 +10,10 @@
 
 Click [here](https://docs.google.com/document/d/1_egHgpKx7FtzuqQB7QGcD1Rdo_Stov1bfvrn3Qzmf-4/edit?usp=sharing) to access the Booleans' Project Plan.
 
+## Important Videos
+
+- [Task Manager Application Demo Video](https://drive.google.com/file/d/1rxTxYQyPzfnBiotH_6NXh3-tJcouQ0mi/view?usp=sharing)
+
 ## Theme
 
 As high school students with constant work, it's no surprise we struggle to find the tools we need to succeed or stay organized on a daily basis. So, our team, the Booleans, decided to combat such an issue through the creation of a website. This website aims to help students go through their daily lives with ease. Students will be able to access a calculator, view a calendar, generate tasks to keep track of their work, etc.
@@ -145,12 +149,6 @@ NOTE: All of the labs below can also be accessed from the Mini Labs Website. The
 ###### Aditya Surapaneni
 
 - Click [HERE](https://github.com/AdityaS1426/BooleansCalendar/issues/51) to view the technicals of my Mini Labs. It leads to an Issue, which contains explanations of technicals/links to imporant code for each of my Mini Labs. The MVC framework for each of my Mini Labs is also explained.
-
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-## Task Manager Demonstration Video
-
-- Click [HERE](https://drive.google.com/file/d/1rxTxYQyPzfnBiotH_6NXh3-tJcouQ0mi/view?usp=sharing) to view the demonstration video for our Task Manager applicaiton.
 
 ## Journals and Project Credits
 Contributor | GitHub Link | 
