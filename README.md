@@ -47,7 +47,7 @@ As high school students with constant work, it's no surprise we struggle to find
 
 ## Technicals for Project
 
-- Frameworks Used for this Application/What the Framework Were Specifically Used For
+- Frameworks Used for this Application
 
   - Spring Boot - The basic framework that allows our website to run.
   - Spring Security - Provides security for our application through the use of user-created accounts with passwords.
@@ -70,6 +70,13 @@ As high school students with constant work, it's no surprise we struggle to find
 - We created another CSS file for the miscellaneous portions on the application that the template did not account for. Click [HERE](https://github.com/AdityaS1426/TaskManager/blob/master/src/main/resources/static/css/mystyle.css) to view the code, in CSS.
 - A JS file was created in order to formulate Widget Behavior/Ajax Controller Functionality to the application. Click [HERE](https://github.com/AdityaS1426/TaskManager/blob/master/src/main/resources/static/js/main.js) to view the code, in JS.
 - Code was written in HTML to make the basic formatting for various forms on the application, such as the [Assignment Page](https://github.com/AdityaS1426/TaskManager/blob/master/src/main/resources/templates/forms/assignment.html), the [Task Editor Page](https://github.com/AdityaS1426/TaskManager/blob/master/src/main/resources/templates/forms/task-edit.html), & the [Create New Task Page](https://github.com/AdityaS1426/TaskManager/blob/master/src/main/resources/templates/forms/task-new.html). There are many other HTML files in the corresponding repository that follow a similar format to the ones linked here.
+
+###### Technicals for Calculator
+
+- There's a CalculatorController, which controls the mapping for the various different calculator functions. Click [HERE](https://github.com/AdityaS1426/SpringBootCalculator/blob/master/src/main/java/com/calculator/debugdatabandits/controllers/CalculatorController.java) to view the code.
+- The OperationModel sets up the User Input fields for both the Simple & the Advanced Calculator. Click [HERE](https://github.com/AdityaS1426/SpringBootCalculator/blob/master/src/main/java/com/calculator/debugdatabandits/model/OperationModel.java) to view the code.
+- The CalculateSimple.java file contains the logic for the functions in the calculator. Click [HERE](https://github.com/AdityaS1426/SpringBootCalculator/blob/master/src/main/java/com/calculator/debugdatabandits/service/CalculateSimple.java) to view the code.
+- Finally, there's an HTML file that sets up the page layout for the Spring Boot Calculator, with fields for the user to enter values, the buttons for the various functions, & the display of the result. Click [HERE](https://github.com/AdityaS1426/SpringBootCalculator/blob/master/src/main/resources/templates/Calculator.html) to view the code.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
