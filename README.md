@@ -28,6 +28,8 @@ As high school students with constant work, it's no surprise we struggle to find
 ![image](https://user-images.githubusercontent.com/71394490/121965750-5dba3a80-cd22-11eb-934e-b859203566e3.png)
 - However, the admin can check boxes for any task, as seen below.
 ![image](https://user-images.githubusercontent.com/71394490/121965843-86423480-cd22-11eb-8a14-e87ad6528a6f.png)
+- The user can enter a task of their choosing into the fields in the "Create a New Task" option. They can enter a name, enter a description, set a date, etc.
+![image](https://user-images.githubusercontent.com/71394490/121974448-3bc9b380-cd34-11eb-800b-19d796c019b1.png)
 
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
