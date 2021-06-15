@@ -78,6 +78,14 @@ As high school students with constant work, it's no surprise we struggle to find
 - The CalculateSimple.java file contains the logic for the functions in the calculator. Click [HERE](https://github.com/AdityaS1426/SpringBootCalculator/blob/master/src/main/java/com/calculator/debugdatabandits/service/CalculateSimple.java) to view the code.
 - Finally, there's an HTML file that sets up the page layout for the Spring Boot Calculator, with fields for the user to enter values, the buttons for the various functions, & the display of the result. Click [HERE](https://github.com/AdityaS1426/SpringBootCalculator/blob/master/src/main/resources/templates/Calculator.html) to view the code.
 
+###### Technicals for Calendar Generator
+
+- The Date.java file was used to implement the algorithm for the correct dates to be set for each year. Click [HERE](https://github.com/AdityaS1426/BooleansCalendar/blob/master/src/main/java/com/booleans/calendar/Date.java) to see the Java algorithm/code for the dates of each year.
+- A controller for the application, with a default set to the year 2021, along with mapping for user-inputted years, was created. Click [HERE](https://github.com/AdityaS1426/BooleansCalendar/blob/master/src/main/java/com/booleans/calendar/CalendarController.java#L14-L79) to view the code, in Java, for this functionality. Hash Maps/2D Arrays are used to format the dates.
+- Exceptions of the algorithm to account for the holidays were implemented in the controller. Click [HERE](https://github.com/AdityaS1426/BooleansCalendar/blob/master/src/main/java/com/booleans/calendar/CalendarController.java#L81-L121) to view the code, in Java, for the holidays.
+- HTML code was created to format the Calendar Generator, with a user-input form, bullet list of holidays, & tables to represent each month of the year. Click [HERE](https://github.com/AdityaS1426/BooleansCalendar/blob/master/src/main/resources/templates/calendar.html) to view the code, in HTML.
+- Some basic CSS formatting was done to make the application appealing to the eye. Click [HERE](https://github.com/AdityaS1426/BooleansCalendar/blob/master/src/main/resources/static/styles.css) to view the CSS code.
+
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Task Manager Demonstration Video
