@@ -47,8 +47,6 @@ As high school students with constant work, it's no surprise we struggle to find
 
 ## Technicals for Project
 
-###### Technicals for Task Manager
-
 - Frameworks Used for this Application/What the Framework Were Specifically Used For
   - Spring Boot - The basic framework that allows our website to run.
   - Spring Security - Provides security for our application through the use of user-created accounts with passwords.
@@ -57,6 +55,9 @@ As high school students with constant work, it's no surprise we struggle to find
   - Thymeleaf - This helps us format our application to look visually appealing. It's essential for the front-end aspect.
   - Bootstrap - Like Thymeleaf above, Bootstrap is primarily responsible for the front-end, but its focus is on the stylistic aspects.
   - jQuery - This framework makes it extremely simple to implement JavaScrip code in the applicatiion.
+
+###### Technicals for Task Manager
+
 - Click [HERE](https://drive.google.com/file/d/1rxTxYQyPzfnBiotH_6NXh3-tJcouQ0mi/view?usp=sharing) to watch the Demonstration Video for the Task Manager application portion of our website.
 - We have a Security Configuration for the application, which is responsible for storing the Usernames & Passwords of the users. Via this file's use, the application will stay secure. Click [HERE](https://github.com/AdityaS1426/TaskManager/blob/master/src/main/java/com/booleans/taskmanagement/configuration/SecurityConfiguration.java) to access the code for this feature.
 - We have various controllers for this application, but a couple of the most important controllers take care of the "Assign Tasks" feature of the application, the "Task List" portion of the application, & the "User List" portion of the application. Click [HERE](https://github.com/AdityaS1426/TaskManager/blob/master/src/main/java/com/booleans/taskmanagement/controller/AssignmentController.java) to view the code for the AssignmentController. Click [HERE](https://github.com/AdityaS1426/TaskManager/blob/master/src/main/java/com/booleans/taskmanagement/controller/TaskController.java) to view the code for the TaskController. Click [HERE](https://github.com/AdityaS1426/TaskManager/blob/master/src/main/java/com/booleans/taskmanagement/controller/UserController.java) to view the code for the UserController. (NOTE: As mentioned above, we have various other controllers which follow a similar format as the ones mentioned here. The other controllers can be found in the corresponding repositories.)
