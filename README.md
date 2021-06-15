@@ -140,6 +140,10 @@ NOTE: All of the labs below can also be accessed from the Mini Labs Website. The
 - [Sorts](https://booleans-website.herokuapp.com/labs/Vihan/Sorts)
 - [Inheritance](https://booleans-website.herokuapp.com/labs/Vihan/Inheritance)
 
+## Mini Labs - Code Modeling/Technicals
+
+###### Aditya Surapaneni
+
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Task Manager Demonstration Video
