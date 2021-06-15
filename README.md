@@ -142,7 +142,9 @@ NOTE: All of the labs below can also be accessed from the Mini Labs Website. The
 
 ## Mini Labs - Code Modeling/Technicals
 
-- Click [HERE](https://github.com/AdityaS1426/BooleansCalendar/issues/51) to view the technicals of my Mini Labs. It leads to an Issue, which contains explanations of technicals/links to code for each of my Mini Labs.
+###### Aditya Surapaneni
+
+- Click [HERE](https://github.com/AdityaS1426/BooleansCalendar/issues/51) to view the technicals of my Mini Labs. It leads to an Issue, which contains explanations of technicals/links to imporant code for each of my Mini Labs. The MVC framework for each of my Mini Labs is also explained.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
