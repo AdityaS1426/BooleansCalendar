@@ -47,7 +47,7 @@ As high school students with constant work, it's no surprise we struggle to find
 
 ## Technicals for Project
 
-- Frameworks Used for this Application
+- HOW IT WAS MADE
 
   - Spring Boot - The basic framework that allows our website to run.
   - Spring Security - Provides security for our application through the use of user-created accounts with passwords.
