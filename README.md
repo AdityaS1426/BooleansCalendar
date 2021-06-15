@@ -48,6 +48,7 @@ As high school students with constant work, it's no surprise we struggle to find
 ## Technicals for Project
 
 - Frameworks Used for this Application/What the Framework Were Specifically Used For
+
   - Spring Boot - The basic framework that allows our website to run.
   - Spring Security - Provides security for our application through the use of user-created accounts with passwords.
   - H2 Database - This is the type of database containing all the data for our application, from the profile information of the users to the tasks themselves.
