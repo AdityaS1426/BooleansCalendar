@@ -12,6 +12,7 @@ Click [here](https://docs.google.com/document/d/1_egHgpKx7FtzuqQB7QGcD1Rdo_Stov1
 
 ## Important Videos
 
+- [Video- README OVERVIEW](https://drive.google.com/file/d/1OQCaiv97v1ktgTIg-wIIiwx8G4MBMupi/view?usp=sharing) (Watch this video BEFORE DOING ANYTHING ELSE to make it easier to review our project!)
 - [Video - How It's Made](https://drive.google.com/file/d/1ptYBPoI1IACoIhgClX-U3eWJB8clpEs2/view?usp=sharing)
 - [Video - Task Manager Application Demonstration](https://drive.google.com/file/d/1rxTxYQyPzfnBiotH_6NXh3-tJcouQ0mi/view?usp=sharing)
 
