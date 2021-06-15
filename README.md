@@ -86,6 +86,14 @@ As high school students with constant work, it's no surprise we struggle to find
 - HTML code was created to format the Calendar Generator, with a user-input form, bullet list of holidays, & tables to represent each month of the year. Click [HERE](https://github.com/AdityaS1426/BooleansCalendar/blob/master/src/main/resources/templates/calendar.html) to view the code, in HTML.
 - Some basic CSS formatting was done to make the application appealing to the eye. Click [HERE](https://github.com/AdityaS1426/BooleansCalendar/blob/master/src/main/resources/static/styles.css) to view the CSS code.
 
+## Back-End Database
+
+- An H2 Database was primarily utilized for the Task Manager Application, with IntelliJ's built-in functionality.
+- [Role.java](https://github.com/AdityaS1426/TaskManager/blob/master/src/main/java/com/booleans/taskmanagement/model/Role.java), [Task.java](https://github.com/AdityaS1426/TaskManager/blob/master/src/main/java/com/booleans/taskmanagement/model/Task.java), & [User.java](https://github.com/AdityaS1426/TaskManager/blob/master/src/main/java/com/booleans/taskmanagement/model/User.java) are part of the Model in MVC framework, so they're responsible for setting up the various columns in the tables contained within the database.
+- [InitialDataLoader.java](https://github.com/AdityaS1426/TaskManager/blob/master/src/main/java/com/booleans/taskmanagement/dataloader/InitialDataLoader.java) is responsible for implementing the default data to be displayed in the Task Manager Application.
+- The above allow for the presence of the "Task List" & "User List" in the Task Manager Application, like seen in the picture below.
+![image](https://user-images.githubusercontent.com/71394490/122083780-036ab980-cdb6-11eb-8ee9-880f91341e13.png)
+
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Task Manager Demonstration Video
