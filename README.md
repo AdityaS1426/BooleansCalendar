@@ -94,6 +94,12 @@ As high school students with constant work, it's no surprise we struggle to find
 - The above allow for the presence of the "Task List" & "User List" in the Task Manager Application, like seen in the picture below.
 ![image](https://user-images.githubusercontent.com/71394490/122083780-036ab980-cdb6-11eb-8ee9-880f91341e13.png)
 
+## Something Fun the User Can Do on the Website
+
+- The user can visit our [Calendar Generator](https://calendar-set-up-test.herokuapp.com/).
+- They can enter the year in which they were born.
+- They can find the day of their birth to figure out which day of the week they were born!
+
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Task Manager Demonstration Video
