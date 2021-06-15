@@ -100,6 +100,46 @@ As high school students with constant work, it's no surprise we struggle to find
 - They can enter the year in which they were born.
 - They can find the day of their birth to figure out which day of the week they were born!
 
+## Mini Labs - How to Access
+
+- Our Mini Labs can be accessed by clicking on the "Mini Labs" tab on the "navigation bar" at the top of our [Project Website](https://booleans-final-webapp.herokuapp.com/) or by directly accessing the [Mini Labs Website](https://booleans-website.herokuapp.com/labs).
+- After reaching the Mini Labs Website, hover the mouse over each team member's name to see a drop-down list of the various Mini Labs. These can be clicked to be accessed.
+
+NOTE: All of the labs below can also be accessed from the Mini Labs Website. They were linked here for Mr. M's grading convenience.
+
+###### Neil Sahai's Mini Labs
+
+- [Factorials!](https://booleans-website.herokuapp.com/labs/Neil/dafact)
+- [Inheritance](https://booleans-website.herokuapp.com/labs/Neil/inheritance)
+- [3 Sorts](https://booleans-website.herokuapp.com/labs/Neil/Sorts)
+- [Linked List](https://booleans-website.herokuapp.com/labs/Neil/LinkedList)
+
+###### Praveen Natarajan's Mini Labs
+
+- [Factorial](https://booleans-website.herokuapp.com/labs/Praveen/dafact)
+- [Car Inheritance](https://booleans-website.herokuapp.com/labs/Praveen/Car)
+- [Sorts](https://sortcsa.herokuapp.com/)
+- [LinkedList](https://booleans-website.herokuapp.com/labs/Praveen/LinkedList)
+
+###### Aditya Surapaneni's Mini Labs
+
+- [Recursion](https://spring-boot-calculator.herokuapp.com/calculator)
+- [Inheritance](https://inheritance-lab.herokuapp.com/inheritance)
+- [Sorts](https://sort-lab.herokuapp.com/sort)
+- [LinkedList](https://linked-list-lab.herokuapp.com/linked-list)
+
+###### Yasaswi Singamneni's Mini Labs
+
+- [Recursion](https://java-minilab.herokuapp.com/calculator)
+- [Sorts](https://csa-sorts.herokuapp.com/)
+- [LinkedList](https://booleans-website.herokuapp.com/labs/Yasaswi/LinkedList)
+
+###### Vihan Jayaraman's Mini Labs
+
+- [Recursion - Frog River](https://booleans-website.herokuapp.com/labs/Vihan/RiverRecursion)
+- [Sorts](https://booleans-website.herokuapp.com/labs/Vihan/Sorts)
+- [Inheritance](https://booleans-website.herokuapp.com/labs/Vihan/Inheritance)
+
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Task Manager Demonstration Video
