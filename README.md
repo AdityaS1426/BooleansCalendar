@@ -10,7 +10,7 @@
 
 Click [here](https://docs.google.com/document/d/1_egHgpKx7FtzuqQB7QGcD1Rdo_Stov1bfvrn3Qzmf-4/edit?usp=sharing) to access the Booleans' Project Plan.
 
-## Important Videos
+## IMPORTANT VIDEOS - PLEASE WATCH
 
 - [Video- README OVERVIEW](https://drive.google.com/file/d/1OQCaiv97v1ktgTIg-wIIiwx8G4MBMupi/view?usp=sharing) (Watch this video BEFORE DOING ANYTHING ELSE to make it easier to review our project!)
 - [Video - How It's Made](https://drive.google.com/file/d/1ptYBPoI1IACoIhgClX-U3eWJB8clpEs2/view?usp=sharing)
