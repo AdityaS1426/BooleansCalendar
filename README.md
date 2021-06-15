@@ -16,6 +16,14 @@ Click [here](https://docs.google.com/document/d/1_egHgpKx7FtzuqQB7QGcD1Rdo_Stov1
 - [Video - How It's Made](https://drive.google.com/file/d/1ptYBPoI1IACoIhgClX-U3eWJB8clpEs2/view?usp=sharing)
 - [Video - Task Manager Application Demonstration](https://drive.google.com/file/d/1rxTxYQyPzfnBiotH_6NXh3-tJcouQ0mi/view?usp=sharing)
 
+## Other Repositories Used
+
+NOTE: We used other repositories to make the organization of our project much easier.
+
+- [Calculator Repository](https://github.com/AdityaS1426/SpringBootCalculator)
+- [Calendar Generator Repository](https://github.com/AdityaS1426/CalendarSetUpTest)
+- [Task Manager Repository](https://github.com/AdityaS1426/TaskManager)
+
 ## Theme
 
 As high school students with constant work, it's no surprise we struggle to find the tools we need to succeed or stay organized on a daily basis. So, our team, the Booleans, decided to combat such an issue through the creation of a website. This website aims to help students go through their daily lives with ease. Students will be able to access a calculator, view a calendar, generate tasks to keep track of their work, etc.
