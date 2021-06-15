@@ -45,6 +45,20 @@ As high school students with constant work, it's no surprise we struggle to find
 - The date/day of the week of important holidays occurring in the user-inputted year will also be generated above the calendar.
 ![image](https://user-images.githubusercontent.com/71394490/121975003-85ff6480-cd35-11eb-8194-1f44c0c13232.png)
 
+## Technicals for Project
+
+###### Technicals for Task Manager
+
+- Click [HERE](https://drive.google.com/file/d/1rxTxYQyPzfnBiotH_6NXh3-tJcouQ0mi/view?usp=sharing) to watch the Demonstration Video for the Task Manager application portion of our website.
+- This is a Security Configuration for the application. Via this file's use, the application will stay secure. Click [HERE](https://github.com/AdityaS1426/TaskManager/blob/master/src/main/java/com/booleans/taskmanagement/configuration/SecurityConfiguration.java) to access the code for this feature.
+- [x] Write code, in Java, to create a Controller for the "Assign Tasks" feature of the application. Click [HERE](https://github.com/AdityaS1426/TaskManager/blob/master/src/main/java/com/booleans/taskmanagement/controller/AssignmentController.java) to view the code for this feature.
+- [x] Write code, in Java, to create a Controller for the "Task List" portion of the application. Click [HERE](https://github.com/AdityaS1426/TaskManager/blob/master/src/main/java/com/booleans/taskmanagement/controller/TaskController.java) to view the code for this feature.
+- [x] Write code, in Java, to create a Controller for the "User List" portion of the application. Click [HERE](https://github.com/AdityaS1426/TaskManager/blob/master/src/main/java/com/booleans/taskmanagement/controller/UserController.java) to view the code for this feature.
+- [x] Create a Java class containing the default data for the application. Click [HERE](https://github.com/AdityaS1426/TaskManager/blob/master/src/main/java/com/booleans/taskmanagement/dataloader/InitialDataLoader.java) to view the code.
+- [x] Implement CSS formatting for the application. Click [HERE](https://github.com/AdityaS1426/TaskManager/blob/master/src/main/resources/static/css/mystyle.css) to view the code, in CSS.
+- [x] Create a JS file in order to formulate Widget Behavior/Ajax Controller Functionality to the application. Click [HERE](https://github.com/AdityaS1426/TaskManager/blob/master/src/main/resources/static/js/main.js) to view the code, in JS.
+- [x] Write code, in HTML, for various forms on the application, such as the [Assignment Page](https://github.com/AdityaS1426/TaskManager/blob/master/src/main/resources/templates/forms/assignment.html), the [Task Editor Page](https://github.com/AdityaS1426/TaskManager/blob/master/src/main/resources/templates/forms/task-edit.html), & the [Create New Task Page](https://github.com/AdityaS1426/TaskManager/blob/master/src/main/resources/templates/forms/task-new.html).
+
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Task Manager Demonstration Video
