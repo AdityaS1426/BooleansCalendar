@@ -2,9 +2,9 @@
 
 ## Website
 
-- Click [HERE](https://booleans-final-webapp.herokuapp.com/) to access the website for the Final Project.
+- Click [HERE](https://booleans.nighthawkcodingsociety.com/) to access the website for the Final Project.
 - Click [HERE](https://booleans-website.herokuapp.com/) to access the website for the Mini Labs. (This website is also linked within the Final Project website.)
-![image](https://user-images.githubusercontent.com/71394490/121955760-2e510100-cd15-11eb-959e-a8a4ef93598f.png)
+![image](https://user-images.githubusercontent.com/71394490/122314692-83d00e00-cecd-11eb-981d-18d35edb6405.png)
 
 ## Project Plan
 
